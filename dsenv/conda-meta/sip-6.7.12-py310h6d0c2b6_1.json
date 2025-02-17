@@ -1,0 +1,1638 @@
+{
+  "build": "py310h6d0c2b6_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "packaging",
+    "ply",
+    "python >=3.10,<3.11.0a0",
+    "setuptools",
+    "tomli"
+  ],
+  "extracted_package_dir": "/Users/gbengaogunwale/opt/anaconda3/pkgs/sip-6.7.12-py310h6d0c2b6_1",
+  "features": "",
+  "files": [
+    "bin/sip-build",
+    "bin/sip-distinfo",
+    "bin/sip-install",
+    "bin/sip-module",
+    "bin/sip-sdist",
+    "bin/sip-wheel",
+    "lib/python3.10/site-packages/sip-6.7.12.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/sip-6.7.12.dist-info/LICENSE",
+    "lib/python3.10/site-packages/sip-6.7.12.dist-info/LICENSE-GPL2",
+    "lib/python3.10/site-packages/sip-6.7.12.dist-info/LICENSE-GPL3",
+    "lib/python3.10/site-packages/sip-6.7.12.dist-info/METADATA",
+    "lib/python3.10/site-packages/sip-6.7.12.dist-info/RECORD",
+    "lib/python3.10/site-packages/sip-6.7.12.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/sip-6.7.12.dist-info/WHEEL",
+    "lib/python3.10/site-packages/sip-6.7.12.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/sip-6.7.12.dist-info/entry_points.txt",
+    "lib/python3.10/site-packages/sip-6.7.12.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/sipbuild/__init__.py",
+    "lib/python3.10/site-packages/sipbuild/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/__pycache__/abstract_builder.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/__pycache__/abstract_project.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/__pycache__/api.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/__pycache__/argument_parser.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/__pycache__/bindings.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/__pycache__/bindings_configuration.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/__pycache__/buildable.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/__pycache__/builder.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/__pycache__/configurable.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/__pycache__/distutils_builder.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/__pycache__/exceptions.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/__pycache__/installable.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/__pycache__/project.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/__pycache__/py_versions.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/__pycache__/pyproject.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/__pycache__/setuptools_builder.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/__pycache__/toml.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/__pycache__/version.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/abstract_builder.py",
+    "lib/python3.10/site-packages/sipbuild/abstract_project.py",
+    "lib/python3.10/site-packages/sipbuild/api.py",
+    "lib/python3.10/site-packages/sipbuild/argument_parser.py",
+    "lib/python3.10/site-packages/sipbuild/bindings.py",
+    "lib/python3.10/site-packages/sipbuild/bindings_configuration.py",
+    "lib/python3.10/site-packages/sipbuild/buildable.py",
+    "lib/python3.10/site-packages/sipbuild/builder.py",
+    "lib/python3.10/site-packages/sipbuild/code_generator.abi3.so",
+    "lib/python3.10/site-packages/sipbuild/configurable.py",
+    "lib/python3.10/site-packages/sipbuild/distinfo/__init__.py",
+    "lib/python3.10/site-packages/sipbuild/distinfo/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/distinfo/__pycache__/distinfo.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/distinfo/__pycache__/main.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/distinfo/distinfo.py",
+    "lib/python3.10/site-packages/sipbuild/distinfo/main.py",
+    "lib/python3.10/site-packages/sipbuild/distutils_builder.py",
+    "lib/python3.10/site-packages/sipbuild/exceptions.py",
+    "lib/python3.10/site-packages/sipbuild/generator/__init__.py",
+    "lib/python3.10/site-packages/sipbuild/generator/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/__pycache__/error_log.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/__pycache__/instantiations.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/__pycache__/python_slots.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/__pycache__/scoped_name.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/__pycache__/specification.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/__pycache__/templates.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/error_log.py",
+    "lib/python3.10/site-packages/sipbuild/generator/instantiations.py",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/__init__.py",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/__pycache__/api.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/__pycache__/extracts.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/__pycache__/pyi.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/__pycache__/type_hints.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/__pycache__/xml.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/api.py",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/extracts.py",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/__init__.py",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/__pycache__/argument.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/__pycache__/base_formatter.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/__pycache__/enum.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/__pycache__/klass.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/__pycache__/overload.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/__pycache__/scoped.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/__pycache__/signature.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/__pycache__/template.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/__pycache__/value_list.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/__pycache__/variable.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/argument.py",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/base_formatter.py",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/enum.py",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/klass.py",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/overload.py",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/scoped.py",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/signature.py",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/template.py",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/utils.py",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/value_list.py",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/variable.py",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/pyi.py",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/type_hints.py",
+    "lib/python3.10/site-packages/sipbuild/generator/outputs/xml.py",
+    "lib/python3.10/site-packages/sipbuild/generator/parser/__init__.py",
+    "lib/python3.10/site-packages/sipbuild/generator/parser/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/parser/__pycache__/annotations.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/parser/__pycache__/parser.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/parser/__pycache__/parser_manager.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/parser/__pycache__/parsetab.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/parser/__pycache__/python_exceptions.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/parser/__pycache__/rules.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/parser/__pycache__/tokens.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/parser/annotations.py",
+    "lib/python3.10/site-packages/sipbuild/generator/parser/parser.py",
+    "lib/python3.10/site-packages/sipbuild/generator/parser/parser_manager.py",
+    "lib/python3.10/site-packages/sipbuild/generator/parser/parsetab.py",
+    "lib/python3.10/site-packages/sipbuild/generator/parser/python_exceptions.py",
+    "lib/python3.10/site-packages/sipbuild/generator/parser/rules.py",
+    "lib/python3.10/site-packages/sipbuild/generator/parser/tokens.py",
+    "lib/python3.10/site-packages/sipbuild/generator/python_slots.py",
+    "lib/python3.10/site-packages/sipbuild/generator/resolver/__init__.py",
+    "lib/python3.10/site-packages/sipbuild/generator/resolver/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/resolver/__pycache__/resolver.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/generator/resolver/resolver.py",
+    "lib/python3.10/site-packages/sipbuild/generator/scoped_name.py",
+    "lib/python3.10/site-packages/sipbuild/generator/specification.py",
+    "lib/python3.10/site-packages/sipbuild/generator/templates.py",
+    "lib/python3.10/site-packages/sipbuild/generator/utils.py",
+    "lib/python3.10/site-packages/sipbuild/installable.py",
+    "lib/python3.10/site-packages/sipbuild/module/__init__.py",
+    "lib/python3.10/site-packages/sipbuild/module/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/module/__pycache__/abi_version.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/module/__pycache__/main.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/module/__pycache__/module.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/module/abi_version.py",
+    "lib/python3.10/site-packages/sipbuild/module/main.py",
+    "lib/python3.10/site-packages/sipbuild/module/module.py",
+    "lib/python3.10/site-packages/sipbuild/module/source/12/LICENSE",
+    "lib/python3.10/site-packages/sipbuild/module/source/12/LICENSE-GPL2",
+    "lib/python3.10/site-packages/sipbuild/module/source/12/LICENSE-GPL3",
+    "lib/python3.10/site-packages/sipbuild/module/source/12/MANIFEST.in",
+    "lib/python3.10/site-packages/sipbuild/module/source/12/README.in",
+    "lib/python3.10/site-packages/sipbuild/module/source/12/apiversions.c",
+    "lib/python3.10/site-packages/sipbuild/module/source/12/bool.cpp",
+    "lib/python3.10/site-packages/sipbuild/module/source/12/descriptors.c",
+    "lib/python3.10/site-packages/sipbuild/module/source/12/int_convertors.c",
+    "lib/python3.10/site-packages/sipbuild/module/source/12/objmap.c",
+    "lib/python3.10/site-packages/sipbuild/module/source/12/pyproject.toml",
+    "lib/python3.10/site-packages/sipbuild/module/source/12/qtlib.c",
+    "lib/python3.10/site-packages/sipbuild/module/source/12/setup.cfg.in",
+    "lib/python3.10/site-packages/sipbuild/module/source/12/setup.py.in",
+    "lib/python3.10/site-packages/sipbuild/module/source/12/sip.h.in",
+    "lib/python3.10/site-packages/sipbuild/module/source/12/sip.pyi",
+    "lib/python3.10/site-packages/sipbuild/module/source/12/sip.rst.in",
+    "lib/python3.10/site-packages/sipbuild/module/source/12/sip_array.c",
+    "lib/python3.10/site-packages/sipbuild/module/source/12/sip_array.h",
+    "lib/python3.10/site-packages/sipbuild/module/source/12/sipint.h",
+    "lib/python3.10/site-packages/sipbuild/module/source/12/siplib.c",
+    "lib/python3.10/site-packages/sipbuild/module/source/12/threads.c",
+    "lib/python3.10/site-packages/sipbuild/module/source/12/voidptr.c",
+    "lib/python3.10/site-packages/sipbuild/module/source/13/LICENSE",
+    "lib/python3.10/site-packages/sipbuild/module/source/13/LICENSE-GPL2",
+    "lib/python3.10/site-packages/sipbuild/module/source/13/LICENSE-GPL3",
+    "lib/python3.10/site-packages/sipbuild/module/source/13/MANIFEST.in",
+    "lib/python3.10/site-packages/sipbuild/module/source/13/README.in",
+    "lib/python3.10/site-packages/sipbuild/module/source/13/pyproject.toml",
+    "lib/python3.10/site-packages/sipbuild/module/source/13/setup.cfg.in",
+    "lib/python3.10/site-packages/sipbuild/module/source/13/setup.py.in",
+    "lib/python3.10/site-packages/sipbuild/module/source/13/sip.h.in",
+    "lib/python3.10/site-packages/sipbuild/module/source/13/sip.pyi",
+    "lib/python3.10/site-packages/sipbuild/module/source/13/sip.rst.in",
+    "lib/python3.10/site-packages/sipbuild/module/source/13/sip_array.c",
+    "lib/python3.10/site-packages/sipbuild/module/source/13/sip_array.h",
+    "lib/python3.10/site-packages/sipbuild/module/source/13/sip_bool.cpp",
+    "lib/python3.10/site-packages/sipbuild/module/source/13/sip_core.c",
+    "lib/python3.10/site-packages/sipbuild/module/source/13/sip_core.h",
+    "lib/python3.10/site-packages/sipbuild/module/source/13/sip_descriptors.c",
+    "lib/python3.10/site-packages/sipbuild/module/source/13/sip_enum.c",
+    "lib/python3.10/site-packages/sipbuild/module/source/13/sip_enum.h",
+    "lib/python3.10/site-packages/sipbuild/module/source/13/sip_int_convertors.c",
+    "lib/python3.10/site-packages/sipbuild/module/source/13/sip_object_map.c",
+    "lib/python3.10/site-packages/sipbuild/module/source/13/sip_threads.c",
+    "lib/python3.10/site-packages/sipbuild/module/source/13/sip_voidptr.c",
+    "lib/python3.10/site-packages/sipbuild/project.py",
+    "lib/python3.10/site-packages/sipbuild/py_versions.py",
+    "lib/python3.10/site-packages/sipbuild/pyproject.py",
+    "lib/python3.10/site-packages/sipbuild/setuptools_builder.py",
+    "lib/python3.10/site-packages/sipbuild/toml.py",
+    "lib/python3.10/site-packages/sipbuild/tools/__init__.py",
+    "lib/python3.10/site-packages/sipbuild/tools/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/tools/__pycache__/build.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/tools/__pycache__/install.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/tools/__pycache__/sdist.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/tools/__pycache__/wheel.cpython-310.pyc",
+    "lib/python3.10/site-packages/sipbuild/tools/build.py",
+    "lib/python3.10/site-packages/sipbuild/tools/install.py",
+    "lib/python3.10/site-packages/sipbuild/tools/sdist.py",
+    "lib/python3.10/site-packages/sipbuild/tools/wheel.py",
+    "lib/python3.10/site-packages/sipbuild/version.py"
+  ],
+  "fn": "sip-6.7.12-py310h6d0c2b6_1.conda",
+  "legacy_bz2_md5": "923eea11abec166a4a113199583078b3",
+  "legacy_bz2_size": 567054,
+  "license": "LicenseRef-SIP_License OR GPL-2.0-or-later OR GPL-3.0-or-later",
+  "license_family": "GPL",
+  "link": {
+    "source": "/Users/gbengaogunwale/opt/anaconda3/pkgs/sip-6.7.12-py310h6d0c2b6_1",
+    "type": 1
+  },
+  "md5": "385dfe95623b9f0e24dfd6385aaed475",
+  "name": "sip",
+  "package_tarball_full_path": "/Users/gbengaogunwale/opt/anaconda3/pkgs/sip-6.7.12-py310h6d0c2b6_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/sip-build",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_f6dxjhkwfk/croot/sip_1736545548479/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "450ea08ee71f3aab92f90a7e3b23f539b3a0279db4d4ea1f5fc66f9b9b4c9b51",
+        "sha256_in_prefix": "d7b17e0d6a5bc6af1e6b9d2e4f512176aa9de6a4fb723af7cb5b911b0c4c4a9c",
+        "size_in_bytes": 473
+      },
+      {
+        "_path": "bin/sip-distinfo",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_f6dxjhkwfk/croot/sip_1736545548479/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "f34d44e318f5580768d20f4f36c902f0c3c689574724f21a04f2f037296cc38d",
+        "sha256_in_prefix": "2aa87f92b1c11ae08a468c773ef13bc840c6a1ca7a37a352d1d35daafa0fe7c5",
+        "size_in_bytes": 475
+      },
+      {
+        "_path": "bin/sip-install",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_f6dxjhkwfk/croot/sip_1736545548479/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "a30e9dfc31b46e9108b7bbea579fd56e19a064a26fd439beea6c9cea9d774528",
+        "sha256_in_prefix": "b9656c2277a9a80e14186936e9c04817139571279cf32f6628ba09ae77ccc1f0",
+        "size_in_bytes": 475
+      },
+      {
+        "_path": "bin/sip-module",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_f6dxjhkwfk/croot/sip_1736545548479/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "70834c1fbcdb87b35281464862894c9aa83a7ec0f5557315ec77bd382ed7e3c5",
+        "sha256_in_prefix": "c9683a4d5fd2d13f6ff7642a89d8a9047d5478cc60fbae912eb15b79c3ad763a",
+        "size_in_bytes": 473
+      },
+      {
+        "_path": "bin/sip-sdist",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_f6dxjhkwfk/croot/sip_1736545548479/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "fe62f588cd77a5ca3e2bfc5a7a8fd4df1d0894d95e9b02acbe0eff94d52d3503",
+        "sha256_in_prefix": "8d49e58ff09b366383b7fe3d2aa019c5c8b87f5bdc27cf75ab695de8f2e8a70f",
+        "size_in_bytes": 473
+      },
+      {
+        "_path": "bin/sip-wheel",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_f6dxjhkwfk/croot/sip_1736545548479/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "1289a759e14dd159aaec26a9d6cee7d0c0caff89d4b5c2b14f283de86efdf3ba",
+        "sha256_in_prefix": "ef3e4e4f5488cf6b42bfc5c3e0ff17b6663d0adcc9300c6bdde2255ee5774806",
+        "size_in_bytes": 473
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sip-6.7.12.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sip-6.7.12.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "2c93b5d4af4cfdfe8d7551b2bfe971e39deb37a8ae2d40765f3fd63846418c63",
+        "sha256_in_prefix": "2c93b5d4af4cfdfe8d7551b2bfe971e39deb37a8ae2d40765f3fd63846418c63",
+        "size_in_bytes": 2766
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sip-6.7.12.dist-info/LICENSE-GPL2",
+        "path_type": "hardlink",
+        "sha256": "7ebb61006e46b9e9340dd135d5f4afbbcb1d1d6c6709f74473b35929007b9aeb",
+        "sha256_in_prefix": "7ebb61006e46b9e9340dd135d5f4afbbcb1d1d6c6709f74473b35929007b9aeb",
+        "size_in_bytes": 18161
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sip-6.7.12.dist-info/LICENSE-GPL3",
+        "path_type": "hardlink",
+        "sha256": "63cb5f5c1ea39b732c495f354f971e40f6db84c567ca5573a68bb65af07741f8",
+        "sha256_in_prefix": "63cb5f5c1ea39b732c495f354f971e40f6db84c567ca5573a68bb65af07741f8",
+        "size_in_bytes": 35297
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sip-6.7.12.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "eae4f0277622e627c368fdd0a1b178c798878c36c63ca53522125dc105d745fd",
+        "sha256_in_prefix": "eae4f0277622e627c368fdd0a1b178c798878c36c63ca53522125dc105d745fd",
+        "size_in_bytes": 3250
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sip-6.7.12.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "a2ba22ac6bbc7cc16991cef02ff2a24f2ffb765c3de66813cc51ac6f74fdfe8b",
+        "sha256_in_prefix": "a2ba22ac6bbc7cc16991cef02ff2a24f2ffb765c3de66813cc51ac6f74fdfe8b",
+        "size_in_bytes": 16080
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sip-6.7.12.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sip-6.7.12.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "2c0ed35c7576391951d00a6e6dba4cffe6645d61004882f8f22c267f18c64be4",
+        "sha256_in_prefix": "2c0ed35c7576391951d00a6e6dba4cffe6645d61004882f8f22c267f18c64be4",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sip-6.7.12.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "e2eaa0a799a7ccb83131b15775b004f6e1a3e7f9653d2bfb3005e7669933f43d",
+        "sha256_in_prefix": "e2eaa0a799a7ccb83131b15775b004f6e1a3e7f9653d2bfb3005e7669933f43d",
+        "size_in_bytes": 134
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sip-6.7.12.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "bf88756526bf7a80c3513e255bfb1f813aa76551e511cfd6dcc22fa964f1f25b",
+        "sha256_in_prefix": "bf88756526bf7a80c3513e255bfb1f813aa76551e511cfd6dcc22fa964f1f25b",
+        "size_in_bytes": 256
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sip-6.7.12.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "54e091757d03617c4c51ab09345385f16abf6abf0165691755a91e45dd426d51",
+        "sha256_in_prefix": "54e091757d03617c4c51ab09345385f16abf6abf0165691755a91e45dd426d51",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "20080a459ef03a95395c98633d48d576525d431f2468e44ab84e381f594ee677",
+        "sha256_in_prefix": "20080a459ef03a95395c98633d48d576525d431f2468e44ab84e381f594ee677",
+        "size_in_bytes": 1992
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "cad5f25fe1954e190b32f10ae4726724e881551cba48cfd65cae74ddd69824ab",
+        "sha256_in_prefix": "cad5f25fe1954e190b32f10ae4726724e881551cba48cfd65cae74ddd69824ab",
+        "size_in_bytes": 1030
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/__pycache__/abstract_builder.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "84b8ffbbf01ca6d7730b3edaae06345578099db5467f037c0ee5fbd06ca72d18",
+        "sha256_in_prefix": "84b8ffbbf01ca6d7730b3edaae06345578099db5467f037c0ee5fbd06ca72d18",
+        "size_in_bytes": 1528
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/__pycache__/abstract_project.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "001878dece3992b41d6e1ab303d7c145a0efb7d86ae616b8339e589d9b9431e6",
+        "sha256_in_prefix": "001878dece3992b41d6e1ab303d7c145a0efb7d86ae616b8339e589d9b9431e6",
+        "size_in_bytes": 3759
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/__pycache__/api.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "4ca2e5192536ca97fa2347019ef13501c006cb77b1a15a682bc1ac9e21feb336",
+        "sha256_in_prefix": "4ca2e5192536ca97fa2347019ef13501c006cb77b1a15a682bc1ac9e21feb336",
+        "size_in_bytes": 1331
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/__pycache__/argument_parser.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "c65a00dd7cb2627332b59064a63b4b6fd8696e31c98196a0732d636496a3e545",
+        "sha256_in_prefix": "c65a00dd7cb2627332b59064a63b4b6fd8696e31c98196a0732d636496a3e545",
+        "size_in_bytes": 797
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/__pycache__/bindings.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "0046f2e769de96b24d2db8cdec6153505cd76a985c1f497c4e8f0c5d7ddba88b",
+        "sha256_in_prefix": "0046f2e769de96b24d2db8cdec6153505cd76a985c1f497c4e8f0c5d7ddba88b",
+        "size_in_bytes": 6822
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/__pycache__/bindings_configuration.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9834be73ab447dc3f064dec633ab366e7f7c85e7592d903c5f60a2850039096f",
+        "sha256_in_prefix": "9834be73ab447dc3f064dec633ab366e7f7c85e7592d903c5f60a2850039096f",
+        "size_in_bytes": 1669
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/__pycache__/buildable.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e1397cbd3174d231de5a14ad63fee49fd178bc565c73db9176dac9ad378c3476",
+        "sha256_in_prefix": "e1397cbd3174d231de5a14ad63fee49fd178bc565c73db9176dac9ad378c3476",
+        "size_in_bytes": 6106
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/__pycache__/builder.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "bb2e65263ccc5758ee6a6e9c2078f483e7ce883ea47f0a0227111a8424b04580",
+        "sha256_in_prefix": "bb2e65263ccc5758ee6a6e9c2078f483e7ce883ea47f0a0227111a8424b04580",
+        "size_in_bytes": 7886
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/__pycache__/configurable.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "298443283d8df8c6cc50959888423225c898ee46c575d35e07a593b028a898bc",
+        "sha256_in_prefix": "298443283d8df8c6cc50959888423225c898ee46c575d35e07a593b028a898bc",
+        "size_in_bytes": 6239
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/__pycache__/distutils_builder.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "eb16644ab07826a6e8fdc806d18da731a70724749efe502dfd4461d0e8808659",
+        "sha256_in_prefix": "eb16644ab07826a6e8fdc806d18da731a70724749efe502dfd4461d0e8808659",
+        "size_in_bytes": 4681
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/__pycache__/exceptions.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "7128f45f99736fae00f75b133116c37ad5bf5c649c47dc06f433a1595fefea80",
+        "sha256_in_prefix": "7128f45f99736fae00f75b133116c37ad5bf5c649c47dc06f433a1595fefea80",
+        "size_in_bytes": 1928
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/__pycache__/installable.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "bc99acc9283f468c186e0c1f35d36ec004234a9d8b120c3484446edc685061fa",
+        "sha256_in_prefix": "bc99acc9283f468c186e0c1f35d36ec004234a9d8b120c3484446edc685061fa",
+        "size_in_bytes": 1737
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/__pycache__/project.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2aca818c9e7724d1bed5c7d1e89faa87fb07ab62fbda494fd1b58214e268db25",
+        "sha256_in_prefix": "2aca818c9e7724d1bed5c7d1e89faa87fb07ab62fbda494fd1b58214e268db25",
+        "size_in_bytes": 18810
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/__pycache__/py_versions.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1eb5f1cc83a8dd67af70e0995b6845ad481605998a0e97c6c56f4c63cd0ae990",
+        "sha256_in_prefix": "1eb5f1cc83a8dd67af70e0995b6845ad481605998a0e97c6c56f4c63cd0ae990",
+        "size_in_bytes": 175
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/__pycache__/pyproject.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f401c391eb243de85c00d5c062fe83cbe34a314768136cabc6f9d8143845e311",
+        "sha256_in_prefix": "f401c391eb243de85c00d5c062fe83cbe34a314768136cabc6f9d8143845e311",
+        "size_in_bytes": 3983
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/__pycache__/setuptools_builder.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "8fa9104851698639f223a8055670b127db9f8d2ca4a4ea8db2e46137adc15c28",
+        "sha256_in_prefix": "8fa9104851698639f223a8055670b127db9f8d2ca4a4ea8db2e46137adc15c28",
+        "size_in_bytes": 3904
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/__pycache__/toml.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "078f8fd97f3e1c704e1768999ab67600eb12fde52b9afaf60450381cc9ef07fb",
+        "sha256_in_prefix": "078f8fd97f3e1c704e1768999ab67600eb12fde52b9afaf60450381cc9ef07fb",
+        "size_in_bytes": 471
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/__pycache__/version.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "96c7b42621606578a982c2ca7061a3334c0f35fe15a2c2d10423767de7a15273",
+        "sha256_in_prefix": "96c7b42621606578a982c2ca7061a3334c0f35fe15a2c2d10423767de7a15273",
+        "size_in_bytes": 191
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/abstract_builder.py",
+        "path_type": "hardlink",
+        "sha256": "27170a5ab38e5f3412f56f6de9ff4ae38eeb6535ddd67447ab65dbcf5925d5af",
+        "sha256_in_prefix": "27170a5ab38e5f3412f56f6de9ff4ae38eeb6535ddd67447ab65dbcf5925d5af",
+        "size_in_bytes": 2068
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/abstract_project.py",
+        "path_type": "hardlink",
+        "sha256": "7e3610e68c965e2b1e5b913383188f48fb8b11293f890092a443ae717dcbbaac",
+        "sha256_in_prefix": "7e3610e68c965e2b1e5b913383188f48fb8b11293f890092a443ae717dcbbaac",
+        "size_in_bytes": 6565
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/api.py",
+        "path_type": "hardlink",
+        "sha256": "c24c5de882b0469660b4fd463c2b997e4cbd29e281f4dce2f6b18d038adf5776",
+        "sha256_in_prefix": "c24c5de882b0469660b4fd463c2b997e4cbd29e281f4dce2f6b18d038adf5776",
+        "size_in_bytes": 2985
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/argument_parser.py",
+        "path_type": "hardlink",
+        "sha256": "f10182a4670189e8197a7507babbd1e4c12b9efb9c4dc33fe1140ae21a3f9e9d",
+        "sha256_in_prefix": "f10182a4670189e8197a7507babbd1e4c12b9efb9c4dc33fe1140ae21a3f9e9d",
+        "size_in_bytes": 1653
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/bindings.py",
+        "path_type": "hardlink",
+        "sha256": "85ac0c61be49c0798a0ea85f8a66ee6ab26e941684b46639be3559e8ae723dbb",
+        "sha256_in_prefix": "85ac0c61be49c0798a0ea85f8a66ee6ab26e941684b46639be3559e8ae723dbb",
+        "size_in_bytes": 13398
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/bindings_configuration.py",
+        "path_type": "hardlink",
+        "sha256": "f5ac4e931250a62666346e4711c9fc74a0df0462ead5d152e1c9be6ca06baa89",
+        "sha256_in_prefix": "f5ac4e931250a62666346e4711c9fc74a0df0462ead5d152e1c9be6ca06baa89",
+        "size_in_bytes": 3489
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/buildable.py",
+        "path_type": "hardlink",
+        "sha256": "a84ed0fc16fd738cd3f2b0427c813a7bc8e2f47659cb570346b5d01c78985e80",
+        "sha256_in_prefix": "a84ed0fc16fd738cd3f2b0427c813a7bc8e2f47659cb570346b5d01c78985e80",
+        "size_in_bytes": 7476
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/builder.py",
+        "path_type": "hardlink",
+        "sha256": "9086c33bbb80448ea687dc871158b8b90f2dcdba47c896ce98acccf15ee57d47",
+        "sha256_in_prefix": "9086c33bbb80448ea687dc871158b8b90f2dcdba47c896ce98acccf15ee57d47",
+        "size_in_bytes": 14607
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/code_generator.abi3.so",
+        "path_type": "hardlink",
+        "sha256": "76e4a08aa8fb0edc5ec6330c453fe307b16e77f565bebfd2387fc0a7dbc45454",
+        "sha256_in_prefix": "76e4a08aa8fb0edc5ec6330c453fe307b16e77f565bebfd2387fc0a7dbc45454",
+        "size_in_bytes": 223132
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/configurable.py",
+        "path_type": "hardlink",
+        "sha256": "0f5edb8b8c1a3659d80b3caae500364642c4aee08b442ea332eff9236590dcc4",
+        "sha256_in_prefix": "0f5edb8b8c1a3659d80b3caae500364642c4aee08b442ea332eff9236590dcc4",
+        "size_in_bytes": 10584
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/distinfo/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c84ab8818fa342868ea23b35ffdf36061bb36cf79c802bacce3b64615ee6ffd8",
+        "sha256_in_prefix": "c84ab8818fa342868ea23b35ffdf36061bb36cf79c802bacce3b64615ee6ffd8",
+        "size_in_bytes": 1325
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/distinfo/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "094a4eef0ba9f746b31e65a2d758c83fcbb0d47d0dc65d031bc766dab49620a9",
+        "sha256_in_prefix": "094a4eef0ba9f746b31e65a2d758c83fcbb0d47d0dc65d031bc766dab49620a9",
+        "size_in_bytes": 224
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/distinfo/__pycache__/distinfo.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "0993851d65c8f8e262ba5716ffa446e293142942918bb4975bc6ce2baa667e2d",
+        "sha256_in_prefix": "0993851d65c8f8e262ba5716ffa446e293142942918bb4975bc6ce2baa667e2d",
+        "size_in_bytes": 4583
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/distinfo/__pycache__/main.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f8b5aaf48692504bb975779b86daf6bb64221ea3b0d9867a34c81bdd963682c0",
+        "sha256_in_prefix": "f8b5aaf48692504bb975779b86daf6bb64221ea3b0d9867a34c81bdd963682c0",
+        "size_in_bytes": 1995
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/distinfo/distinfo.py",
+        "path_type": "hardlink",
+        "sha256": "2eae4666826c1bcdc99616fc3c99e2dc3a43b4874568bbf72a6ed9aa4eb631d1",
+        "sha256_in_prefix": "2eae4666826c1bcdc99616fc3c99e2dc3a43b4874568bbf72a6ed9aa4eb631d1",
+        "size_in_bytes": 8639
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/distinfo/main.py",
+        "path_type": "hardlink",
+        "sha256": "05103fb627f790e9b2199f9dc1c6d298140bc80dd00e5d7fb25518731ee1120b",
+        "sha256_in_prefix": "05103fb627f790e9b2199f9dc1c6d298140bc80dd00e5d7fb25518731ee1120b",
+        "size_in_bytes": 3678
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/distutils_builder.py",
+        "path_type": "hardlink",
+        "sha256": "075af63947c03ab66845ef1d06ac26e5f20aa51f0ead6e86a6341b7aad767cd3",
+        "sha256_in_prefix": "075af63947c03ab66845ef1d06ac26e5f20aa51f0ead6e86a6341b7aad767cd3",
+        "size_in_bytes": 6952
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "383095cd41fd54195ed85c41200cc9fd327a0e4a2fbb5dfe0f1e2f9e5fd44c12",
+        "sha256_in_prefix": "383095cd41fd54195ed85c41200cc9fd327a0e4a2fbb5dfe0f1e2f9e5fd44c12",
+        "size_in_bytes": 2722
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3f882a9d48df9e24b32a3558afdba9043b5dabc95493e1d4022739d931723ef",
+        "sha256_in_prefix": "e3f882a9d48df9e24b32a3558afdba9043b5dabc95493e1d4022739d931723ef",
+        "size_in_bytes": 1327
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "6cdb4262b2d27bac904dac8832d9edcc1bbf272eb6a4433bdc65de73dad3312f",
+        "sha256_in_prefix": "6cdb4262b2d27bac904dac8832d9edcc1bbf272eb6a4433bdc65de73dad3312f",
+        "size_in_bytes": 228
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/__pycache__/error_log.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "60c1395f84be79d5642685bab02842029640aee872cfa102faf4713d8aa5e255",
+        "sha256_in_prefix": "60c1395f84be79d5642685bab02842029640aee872cfa102faf4713d8aa5e255",
+        "size_in_bytes": 1220
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/__pycache__/instantiations.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "56a00acc75b0695dabdcdfcbb3b358a558853362e876bc3fc5765acf75957203",
+        "sha256_in_prefix": "56a00acc75b0695dabdcdfcbb3b358a558853362e876bc3fc5765acf75957203",
+        "size_in_bytes": 8507
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/__pycache__/python_slots.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e830edd5c824af4a4a81389402078f9ed9a51738da93e6130c03ef064598a510",
+        "sha256_in_prefix": "e830edd5c824af4a4a81389402078f9ed9a51738da93e6130c03ef064598a510",
+        "size_in_bytes": 4898
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/__pycache__/scoped_name.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2dcdd9cbfed1aa1f2662d31f0b494ad37518c5487155356ebe81b051b2725aaf",
+        "sha256_in_prefix": "2dcdd9cbfed1aa1f2662d31f0b494ad37518c5487155356ebe81b051b2725aaf",
+        "size_in_bytes": 5710
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/__pycache__/specification.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "44cbbbbcad36fe62384bd570562ecc25e8dfacbac3aca003c4d693af7bbabece",
+        "sha256_in_prefix": "44cbbbbcad36fe62384bd570562ecc25e8dfacbac3aca003c4d693af7bbabece",
+        "size_in_bytes": 25642
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/__pycache__/templates.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "be98e6b2dc03ab294e38c080f15077211f51c4486825ebb73d63491f2976e009",
+        "sha256_in_prefix": "be98e6b2dc03ab294e38c080f15077211f51c4486825ebb73d63491f2976e009",
+        "size_in_bytes": 5116
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/__pycache__/utils.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "414873279a8ac336c6014c17f71168532e3f2f30db88d24b392d4b856b927754",
+        "sha256_in_prefix": "414873279a8ac336c6014c17f71168532e3f2f30db88d24b392d4b856b927754",
+        "size_in_bytes": 7611
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/error_log.py",
+        "path_type": "hardlink",
+        "sha256": "445f7647dca3370d3a4d57331af8ca4a8915414c4688714d44e0ee13faaa3df2",
+        "sha256_in_prefix": "445f7647dca3370d3a4d57331af8ca4a8915414c4688714d44e0ee13faaa3df2",
+        "size_in_bytes": 2193
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/instantiations.py",
+        "path_type": "hardlink",
+        "sha256": "a9a46ef88a379c55114d43ae05da8047b01da126fa513fb613a0ab19b4cfc338",
+        "sha256_in_prefix": "a9a46ef88a379c55114d43ae05da8047b01da126fa513fb613a0ab19b4cfc338",
+        "size_in_bytes": 18087
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "73467b583a289cc26e7c436e38c9843e6333f83a3884027c8bc974024cf6b9cb",
+        "sha256_in_prefix": "73467b583a289cc26e7c436e38c9843e6333f83a3884027c8bc974024cf6b9cb",
+        "size_in_bytes": 1364
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "290dca9f255bd0fdb5504f64bc9b371b2e8844a0be4b771c97731b82bb73618c",
+        "sha256_in_prefix": "290dca9f255bd0fdb5504f64bc9b371b2e8844a0be4b771c97731b82bb73618c",
+        "size_in_bytes": 283
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/__pycache__/api.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "267af86b1d3b15d6a5f251df8b6ed771f4f12f027c35ed9dbc367ae1221bb218",
+        "sha256_in_prefix": "267af86b1d3b15d6a5f251df8b6ed771f4f12f027c35ed9dbc367ae1221bb218",
+        "size_in_bytes": 3091
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/__pycache__/extracts.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "7d5257408fc0b2b82d5aa1473bfbe5bdce3e6e70b7fb4a67f0eaa70c2952b7bc",
+        "sha256_in_prefix": "7d5257408fc0b2b82d5aa1473bfbe5bdce3e6e70b7fb4a67f0eaa70c2952b7bc",
+        "size_in_bytes": 1045
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/__pycache__/pyi.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "cd7c83c6ef013f05f55390bf6330aec2c4c637528ee04b5b838b875808ca76f2",
+        "sha256_in_prefix": "cd7c83c6ef013f05f55390bf6330aec2c4c637528ee04b5b838b875808ca76f2",
+        "size_in_bytes": 12671
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/__pycache__/type_hints.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "455334634e2572155b372862dd5eeab5c9991e69ccc21d8bdc2eeffb4a055bf5",
+        "sha256_in_prefix": "455334634e2572155b372862dd5eeab5c9991e69ccc21d8bdc2eeffb4a055bf5",
+        "size_in_bytes": 9856
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/__pycache__/xml.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "cecbfae2cc32e36f42faa4199686b5d88ed4cf47e2a5505b487f8cc776ba63a2",
+        "sha256_in_prefix": "cecbfae2cc32e36f42faa4199686b5d88ed4cf47e2a5505b487f8cc776ba63a2",
+        "size_in_bytes": 7968
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/api.py",
+        "path_type": "hardlink",
+        "sha256": "2d41e5e236dc7fbd502bb6bedbec3f8fb8e90e2ede95bbcb14269771d5c2d769",
+        "sha256_in_prefix": "2d41e5e236dc7fbd502bb6bedbec3f8fb8e90e2ede95bbcb14269771d5c2d769",
+        "size_in_bytes": 4648
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/extracts.py",
+        "path_type": "hardlink",
+        "sha256": "34b715b66fb20f304c6348f4edd7c304c7881c7a333578cab6b17ffbc1182e05",
+        "sha256_in_prefix": "34b715b66fb20f304c6348f4edd7c304c7881c7a333578cab6b17ffbc1182e05",
+        "size_in_bytes": 2385
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "480d974d16eec03c28e96897fc5ef780abeb0fc98e58d371e57b6e1c70fbbb74",
+        "sha256_in_prefix": "480d974d16eec03c28e96897fc5ef780abeb0fc98e58d371e57b6e1c70fbbb74",
+        "size_in_bytes": 1599
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1aa53ed5a8ab65fe4ef777e4bddbef6c410a607d5189ae3e0ae2f18e3b54c84f",
+        "sha256_in_prefix": "1aa53ed5a8ab65fe4ef777e4bddbef6c410a607d5189ae3e0ae2f18e3b54c84f",
+        "size_in_bytes": 588
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/__pycache__/argument.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2b03330400b04ccd8b5e0f747fbff566573e1aab242eb77b8238b4f3faf904f2",
+        "sha256_in_prefix": "2b03330400b04ccd8b5e0f747fbff566573e1aab242eb77b8238b4f3faf904f2",
+        "size_in_bytes": 8339
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/__pycache__/base_formatter.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "7dc3d4a1262602f12cdcf3b63ddb5ca42624319a2974e0ca10d7b72b209110a4",
+        "sha256_in_prefix": "7dc3d4a1262602f12cdcf3b63ddb5ca42624319a2974e0ca10d7b72b209110a4",
+        "size_in_bytes": 569
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/__pycache__/enum.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "174ba46aa4257230edda25fc4510eb6f1e1ff10a35cf273d84e15c378e039499",
+        "sha256_in_prefix": "174ba46aa4257230edda25fc4510eb6f1e1ff10a35cf273d84e15c378e039499",
+        "size_in_bytes": 2227
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/__pycache__/klass.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b0bcafbb87f9d761be513114ee62f75a2ebe7ce012f3b83ac374292c1fe7b767",
+        "sha256_in_prefix": "b0bcafbb87f9d761be513114ee62f75a2ebe7ce012f3b83ac374292c1fe7b767",
+        "size_in_bytes": 1859
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/__pycache__/overload.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "acb9015b4777383f4066ddfd7b0b1b7bdc33b4b051b62a792bb97f38dc38abc0",
+        "sha256_in_prefix": "acb9015b4777383f4066ddfd7b0b1b7bdc33b4b051b62a792bb97f38dc38abc0",
+        "size_in_bytes": 1756
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/__pycache__/scoped.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "4085cd80fe062bcfdf1268011756c51b09984534d70888c69099891fdce0550f",
+        "sha256_in_prefix": "4085cd80fe062bcfdf1268011756c51b09984534d70888c69099891fdce0550f",
+        "size_in_bytes": 1835
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/__pycache__/signature.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "114cb96816b3affa327b52b2680010e6212d9893796fbf7852b553d009943062",
+        "sha256_in_prefix": "114cb96816b3affa327b52b2680010e6212d9893796fbf7852b553d009943062",
+        "size_in_bytes": 2042
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/__pycache__/template.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "c90abbc56e86e77c8dab09c72fb5dd361ac438bcb7b0692b433c704e74a6ac11",
+        "sha256_in_prefix": "c90abbc56e86e77c8dab09c72fb5dd361ac438bcb7b0692b433c704e74a6ac11",
+        "size_in_bytes": 1040
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/__pycache__/utils.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "d001458b6f6673e012c70cf0514a34653538f65670cd31cac96b82e380f0f21f",
+        "sha256_in_prefix": "d001458b6f6673e012c70cf0514a34653538f65670cd31cac96b82e380f0f21f",
+        "size_in_bytes": 1245
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/__pycache__/value_list.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "63e853f57a4e72f04f3d02fd9235336d2e58fc899236ecf0fde7aefe8ef965d1",
+        "sha256_in_prefix": "63e853f57a4e72f04f3d02fd9235336d2e58fc899236ecf0fde7aefe8ef965d1",
+        "size_in_bytes": 3477
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/__pycache__/variable.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "0dc1c71c17285d626ae86f7346fbe0483fe0aa5843d6823fb251d8ad1324de9f",
+        "sha256_in_prefix": "0dc1c71c17285d626ae86f7346fbe0483fe0aa5843d6823fb251d8ad1324de9f",
+        "size_in_bytes": 847
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/argument.py",
+        "path_type": "hardlink",
+        "sha256": "524b23d9751b440f9bcd25b0bdaffaaf52a12737bc11a6281ef13d2751e3260d",
+        "sha256_in_prefix": "524b23d9751b440f9bcd25b0bdaffaaf52a12737bc11a6281ef13d2751e3260d",
+        "size_in_bytes": 15432
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/base_formatter.py",
+        "path_type": "hardlink",
+        "sha256": "4154e40088a43d75694a9572a599ae9db4bac7f736c6f9771a5b2ec01265fccf",
+        "sha256_in_prefix": "4154e40088a43d75694a9572a599ae9db4bac7f736c6f9771a5b2ec01265fccf",
+        "size_in_bytes": 1415
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/enum.py",
+        "path_type": "hardlink",
+        "sha256": "cdf3793fea4f3fd7bc9845b54fea671616ad7b305515b45dddaf792e038f2752",
+        "sha256_in_prefix": "cdf3793fea4f3fd7bc9845b54fea671616ad7b305515b45dddaf792e038f2752",
+        "size_in_bytes": 3609
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/klass.py",
+        "path_type": "hardlink",
+        "sha256": "f852ea8bdb325650f7a6fc28366a1c1bb6f2f5eae0819597deaed2ebdabd175c",
+        "sha256_in_prefix": "f852ea8bdb325650f7a6fc28366a1c1bb6f2f5eae0819597deaed2ebdabd175c",
+        "size_in_bytes": 3166
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/overload.py",
+        "path_type": "hardlink",
+        "sha256": "6f81134950e086a21684c5b04550ddab814111b5e396e53e5e280cd3c92f6e4f",
+        "sha256_in_prefix": "6f81134950e086a21684c5b04550ddab814111b5e396e53e5e280cd3c92f6e4f",
+        "size_in_bytes": 2638
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/scoped.py",
+        "path_type": "hardlink",
+        "sha256": "b7d4336a238b59f2fb611562dd099de5d3152efc1b3d970de6045171e9b14f17",
+        "sha256_in_prefix": "b7d4336a238b59f2fb611562dd099de5d3152efc1b3d970de6045171e9b14f17",
+        "size_in_bytes": 2370
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/signature.py",
+        "path_type": "hardlink",
+        "sha256": "0f668edd4a14fb7a4fa5941a5f749d6ecf4630d69cde1ee442875a76d6105bd2",
+        "sha256_in_prefix": "0f668edd4a14fb7a4fa5941a5f749d6ecf4630d69cde1ee442875a76d6105bd2",
+        "size_in_bytes": 2876
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/template.py",
+        "path_type": "hardlink",
+        "sha256": "89cbf36b8d14449e225c26abcb0147979a12c43555ee32c72befed53d618e695",
+        "sha256_in_prefix": "89cbf36b8d14449e225c26abcb0147979a12c43555ee32c72befed53d618e695",
+        "size_in_bytes": 1981
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/utils.py",
+        "path_type": "hardlink",
+        "sha256": "5354ccba45d3620e82ea0017a3ff4b1ea285e0a215a3837ab67da087e022c9be",
+        "sha256_in_prefix": "5354ccba45d3620e82ea0017a3ff4b1ea285e0a215a3837ab67da087e022c9be",
+        "size_in_bytes": 2412
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/value_list.py",
+        "path_type": "hardlink",
+        "sha256": "cca14f517da973acd6593c52cc3cc3295d186f86812c517c8bf19bcb55b204be",
+        "sha256_in_prefix": "cca14f517da973acd6593c52cc3cc3295d186f86812c517c8bf19bcb55b204be",
+        "size_in_bytes": 6518
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/formatters/variable.py",
+        "path_type": "hardlink",
+        "sha256": "8e8ae0ce6e0fcceedf1eb32be6b6f42f8d3ec2c25c6d12093fff45c6a14ab761",
+        "sha256_in_prefix": "8e8ae0ce6e0fcceedf1eb32be6b6f42f8d3ec2c25c6d12093fff45c6a14ab761",
+        "size_in_bytes": 1729
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/pyi.py",
+        "path_type": "hardlink",
+        "sha256": "43665936e9b57784198fee68930769a331833400125c0b0453008b956ddcf5f4",
+        "sha256_in_prefix": "43665936e9b57784198fee68930769a331833400125c0b0453008b956ddcf5f4",
+        "size_in_bytes": 22079
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/type_hints.py",
+        "path_type": "hardlink",
+        "sha256": "5278fd150e9490b315a9b782024eb06c2ee612bfd43bd465335a1e824e5fd83f",
+        "sha256_in_prefix": "5278fd150e9490b315a9b782024eb06c2ee612bfd43bd465335a1e824e5fd83f",
+        "size_in_bytes": 17729
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/outputs/xml.py",
+        "path_type": "hardlink",
+        "sha256": "0f9c1593be64f612b340980ea99eb4245afbf30663f7da021842727e69128d49",
+        "sha256_in_prefix": "0f9c1593be64f612b340980ea99eb4245afbf30663f7da021842727e69128d49",
+        "size_in_bytes": 13390
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/parser/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "25eaa6d24e5cc31bfa9f9f2debbdabddca476039cc91d02f3d55c15e3b0a792b",
+        "sha256_in_prefix": "25eaa6d24e5cc31bfa9f9f2debbdabddca476039cc91d02f3d55c15e3b0a792b",
+        "size_in_bytes": 1297
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/parser/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "7607f5e02c8790aa79dde6d4527c391291c72df9f460a9438fbf64d0b5f0bec6",
+        "sha256_in_prefix": "7607f5e02c8790aa79dde6d4527c391291c72df9f460a9438fbf64d0b5f0bec6",
+        "size_in_bytes": 195
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/parser/__pycache__/annotations.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "af46183a6f31c225c731b4d18b2d9d3aba719689c084a46ac73b4e76aca2a484",
+        "sha256_in_prefix": "af46183a6f31c225c731b4d18b2d9d3aba719689c084a46ac73b4e76aca2a484",
+        "size_in_bytes": 5990
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/parser/__pycache__/parser.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1fb8a70e8c4831155979c0246ed0430ea955e193b981d39a1f76ab371bbed596",
+        "sha256_in_prefix": "1fb8a70e8c4831155979c0246ed0430ea955e193b981d39a1f76ab371bbed596",
+        "size_in_bytes": 717
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/parser/__pycache__/parser_manager.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "23df0edc029a1b6e6c73ff9df88d0e961892c0a270ef40b7f8896913f4079d4c",
+        "sha256_in_prefix": "23df0edc029a1b6e6c73ff9df88d0e961892c0a270ef40b7f8896913f4079d4c",
+        "size_in_bytes": 46820
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/parser/__pycache__/parsetab.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "c73c4e4135b4ced15ee3882cf4a521642772ab3f72df2a8c323984f45848bc54",
+        "sha256_in_prefix": "c73c4e4135b4ced15ee3882cf4a521642772ab3f72df2a8c323984f45848bc54",
+        "size_in_bytes": 226129
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/parser/__pycache__/python_exceptions.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "31f332d9ba42a15fdec9c2d21a3b0b7414940bae893fe27b2de39f58218f50d6",
+        "sha256_in_prefix": "31f332d9ba42a15fdec9c2d21a3b0b7414940bae893fe27b2de39f58218f50d6",
+        "size_in_bytes": 1235
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/parser/__pycache__/rules.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ab48d6a6c34f6f2f5fde4c11c1034a82f4a62d5c5e7d361a64072232f6f8e257",
+        "sha256_in_prefix": "ab48d6a6c34f6f2f5fde4c11c1034a82f4a62d5c5e7d361a64072232f6f8e257",
+        "size_in_bytes": 69090
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/parser/__pycache__/tokens.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e859318993bc5d5eee84a991fb0ff18c103ed5640168e61d39964b92feedd3ed",
+        "sha256_in_prefix": "e859318993bc5d5eee84a991fb0ff18c103ed5640168e61d39964b92feedd3ed",
+        "size_in_bytes": 6831
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/parser/annotations.py",
+        "path_type": "hardlink",
+        "sha256": "437a5186a28226745b562f94e39c9e0eb539726c6631963703b6ce867e4ecc47",
+        "sha256_in_prefix": "437a5186a28226745b562f94e39c9e0eb539726c6631963703b6ce867e4ecc47",
+        "size_in_bytes": 8693
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/parser/parser.py",
+        "path_type": "hardlink",
+        "sha256": "77083c39fb9406f087f2847458e2fdad6b72e0d6d82072303abc808618abcf00",
+        "sha256_in_prefix": "77083c39fb9406f087f2847458e2fdad6b72e0d6d82072303abc808618abcf00",
+        "size_in_bytes": 1862
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/parser/parser_manager.py",
+        "path_type": "hardlink",
+        "sha256": "ea142ba181e14a55b3521dbc74095df1b1f1ec9818214e3ef541a5b93e57ee65",
+        "sha256_in_prefix": "ea142ba181e14a55b3521dbc74095df1b1f1ec9818214e3ef541a5b93e57ee65",
+        "size_in_bytes": 81841
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/parser/parsetab.py",
+        "path_type": "hardlink",
+        "sha256": "c99da480ed225108601033d6b6e8dc38203d43e6920ca020969a88932fd82af9",
+        "sha256_in_prefix": "c99da480ed225108601033d6b6e8dc38203d43e6920ca020969a88932fd82af9",
+        "size_in_bytes": 269572
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/parser/python_exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "b7f55b5f38504204f41634e4148ade2af3944526589d87c21b58ee40c9b630b8",
+        "sha256_in_prefix": "b7f55b5f38504204f41634e4148ade2af3944526589d87c21b58ee40c9b630b8",
+        "size_in_bytes": 2905
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/parser/rules.py",
+        "path_type": "hardlink",
+        "sha256": "1e3f1f318ba6be85f8155639a8799dd54ff0d1af85b3c112ee778c3c54dada04",
+        "sha256_in_prefix": "1e3f1f318ba6be85f8155639a8799dd54ff0d1af85b3c112ee778c3c54dada04",
+        "size_in_bytes": 78102
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/parser/tokens.py",
+        "path_type": "hardlink",
+        "sha256": "2530a4c959eb1c83dddccba0b91d14592da3c9629cb24ae6090b12e1b894006e",
+        "sha256_in_prefix": "2530a4c959eb1c83dddccba0b91d14592da3c9629cb24ae6090b12e1b894006e",
+        "size_in_bytes": 9469
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/python_slots.py",
+        "path_type": "hardlink",
+        "sha256": "d9e6166c4778fcf418592640c48c53396d173345abe3ba5ee0a7675692b87d0d",
+        "sha256_in_prefix": "d9e6166c4778fcf418592640c48c53396d173345abe3ba5ee0a7675692b87d0d",
+        "size_in_bytes": 6849
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/resolver/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "cb22be60845f8e7d68066980edcdd0c53d966ef80e33c41a2d7467e5c633cec4",
+        "sha256_in_prefix": "cb22be60845f8e7d68066980edcdd0c53d966ef80e33c41a2d7467e5c633cec4",
+        "size_in_bytes": 1301
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/resolver/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "acfed7fd4b94ca4d4bdf00b0069f6a349135437edf9733364eb3b93269dc7327",
+        "sha256_in_prefix": "acfed7fd4b94ca4d4bdf00b0069f6a349135437edf9733364eb3b93269dc7327",
+        "size_in_bytes": 201
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/resolver/__pycache__/resolver.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1c11e07039b05fc35bbbecc563ed5943d79616fd57cbe4bbd9adf702f6f2973f",
+        "sha256_in_prefix": "1c11e07039b05fc35bbbecc563ed5943d79616fd57cbe4bbd9adf702f6f2973f",
+        "size_in_bytes": 38463
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/resolver/resolver.py",
+        "path_type": "hardlink",
+        "sha256": "14ff824d7dfe420e3f908b7e8f2042423e380c4e52ac8cec98b1ba26b8e6a845",
+        "sha256_in_prefix": "14ff824d7dfe420e3f908b7e8f2042423e380c4e52ac8cec98b1ba26b8e6a845",
+        "size_in_bytes": 80202
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/scoped_name.py",
+        "path_type": "hardlink",
+        "sha256": "8bf448417d26ea72562243c02c8c2a087a882dd27d8a90b07752810bc6889661",
+        "sha256_in_prefix": "8bf448417d26ea72562243c02c8c2a087a882dd27d8a90b07752810bc6889661",
+        "size_in_bytes": 6948
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/specification.py",
+        "path_type": "hardlink",
+        "sha256": "48f37448cb28bb7ac015793fcc73a318b0d250947d989c2a855b1028d39634a6",
+        "sha256_in_prefix": "48f37448cb28bb7ac015793fcc73a318b0d250947d989c2a855b1028d39634a6",
+        "size_in_bytes": 43818
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/templates.py",
+        "path_type": "hardlink",
+        "sha256": "14783537d93b5cad36751b7ff7bb85f0ee8f178f61f4eaae19256100d179d309",
+        "sha256_in_prefix": "14783537d93b5cad36751b7ff7bb85f0ee8f178f61f4eaae19256100d179d309",
+        "size_in_bytes": 10282
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/generator/utils.py",
+        "path_type": "hardlink",
+        "sha256": "70e60bca0f0fc8438919253703a33a6c5ba8f15d4e47608b64b3bba9050a2464",
+        "sha256_in_prefix": "70e60bca0f0fc8438919253703a33a6c5ba8f15d4e47608b64b3bba9050a2464",
+        "size_in_bytes": 16710
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/installable.py",
+        "path_type": "hardlink",
+        "sha256": "bcaa09a898f8e370f1fb7162ed667da3e80e9816bbf5d377761fca36a98aa2f7",
+        "sha256_in_prefix": "bcaa09a898f8e370f1fb7162ed667da3e80e9816bbf5d377761fca36a98aa2f7",
+        "size_in_bytes": 2769
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "95ee99c542b849b7903ae9fcc46b2930dc2dc25fec8f791e8d8f3e6ac6fa6ee0",
+        "sha256_in_prefix": "95ee99c542b849b7903ae9fcc46b2930dc2dc25fec8f791e8d8f3e6ac6fa6ee0",
+        "size_in_bytes": 1385
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2695e291488f3ec9820bd8675a6b68400725103085bf85067bfd9741994622ab",
+        "sha256_in_prefix": "2695e291488f3ec9820bd8675a6b68400725103085bf85067bfd9741994622ab",
+        "size_in_bytes": 301
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/__pycache__/abi_version.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e77665fd0534c1f096257a90123b59178a19545c5bfbe65b1f483a525bc442eb",
+        "sha256_in_prefix": "e77665fd0534c1f096257a90123b59178a19545c5bfbe65b1f483a525bc442eb",
+        "size_in_bytes": 2117
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/__pycache__/main.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "7be739f24f360bbcae4556ac467f57919a981fbeb1064bf0adee93bf92539594",
+        "sha256_in_prefix": "7be739f24f360bbcae4556ac467f57919a981fbeb1064bf0adee93bf92539594",
+        "size_in_bytes": 1430
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/__pycache__/module.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ae1b07bf6d1a1c1a1a8716f65a497eebfa593da487819b780ce78a49aeae4295",
+        "sha256_in_prefix": "ae1b07bf6d1a1c1a1a8716f65a497eebfa593da487819b780ce78a49aeae4295",
+        "size_in_bytes": 4226
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/abi_version.py",
+        "path_type": "hardlink",
+        "sha256": "7a36b27ced99f80464540d1b680490bb6144f75c4892ac771afba30cc3f14af0",
+        "sha256_in_prefix": "7a36b27ced99f80464540d1b680490bb6144f75c4892ac771afba30cc3f14af0",
+        "size_in_bytes": 4387
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/main.py",
+        "path_type": "hardlink",
+        "sha256": "fef28acfdc944e1d171ffff12c8381cef714e825cf50852c28f19f49904d758b",
+        "sha256_in_prefix": "fef28acfdc944e1d171ffff12c8381cef714e825cf50852c28f19f49904d758b",
+        "size_in_bytes": 2790
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/module.py",
+        "path_type": "hardlink",
+        "sha256": "abdf5ac42f4b81b16903e30fb61eed5a3b494f074be2dc7dd5de94d08bd2abea",
+        "sha256_in_prefix": "abdf5ac42f4b81b16903e30fb61eed5a3b494f074be2dc7dd5de94d08bd2abea",
+        "size_in_bytes": 7567
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/12/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "2c93b5d4af4cfdfe8d7551b2bfe971e39deb37a8ae2d40765f3fd63846418c63",
+        "sha256_in_prefix": "2c93b5d4af4cfdfe8d7551b2bfe971e39deb37a8ae2d40765f3fd63846418c63",
+        "size_in_bytes": 2766
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/12/LICENSE-GPL2",
+        "path_type": "hardlink",
+        "sha256": "7ebb61006e46b9e9340dd135d5f4afbbcb1d1d6c6709f74473b35929007b9aeb",
+        "sha256_in_prefix": "7ebb61006e46b9e9340dd135d5f4afbbcb1d1d6c6709f74473b35929007b9aeb",
+        "size_in_bytes": 18161
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/12/LICENSE-GPL3",
+        "path_type": "hardlink",
+        "sha256": "63cb5f5c1ea39b732c495f354f971e40f6db84c567ca5573a68bb65af07741f8",
+        "sha256_in_prefix": "63cb5f5c1ea39b732c495f354f971e40f6db84c567ca5573a68bb65af07741f8",
+        "size_in_bytes": 35297
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/12/MANIFEST.in",
+        "path_type": "hardlink",
+        "sha256": "5e72ddaae856782bdf64e057f84fae8cdfe3638e8a86be396a833a5f62f03a42",
+        "sha256_in_prefix": "5e72ddaae856782bdf64e057f84fae8cdfe3638e8a86be396a833a5f62f03a42",
+        "size_in_bytes": 52
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/12/README.in",
+        "path_type": "hardlink",
+        "sha256": "7638d30acfefbce9c7db1c1a8c1e491e3b33c2e63ade91eb287fbf856ec91b4e",
+        "sha256_in_prefix": "7638d30acfefbce9c7db1c1a8c1e491e3b33c2e63ade91eb287fbf856ec91b4e",
+        "size_in_bytes": 128
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/12/apiversions.c",
+        "path_type": "hardlink",
+        "sha256": "9afc1894d1ea3d7396176dc9d3538b798359295bdc15cd39944380fcece08842",
+        "sha256_in_prefix": "9afc1894d1ea3d7396176dc9d3538b798359295bdc15cd39944380fcece08842",
+        "size_in_bytes": 7252
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/12/bool.cpp",
+        "path_type": "hardlink",
+        "sha256": "564de5a815628e91998210d879d19c9c18f3c292a82413e37678e71fca503b5f",
+        "sha256_in_prefix": "564de5a815628e91998210d879d19c9c18f3c292a82413e37678e71fca503b5f",
+        "size_in_bytes": 847
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/12/descriptors.c",
+        "path_type": "hardlink",
+        "sha256": "d83f1098cd7fbac46450e0cb5ead9c8dd6ac6b30756bbb0b99c3066808ce3907",
+        "sha256_in_prefix": "d83f1098cd7fbac46450e0cb5ead9c8dd6ac6b30756bbb0b99c3066808ce3907",
+        "size_in_bytes": 13614
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/12/int_convertors.c",
+        "path_type": "hardlink",
+        "sha256": "10a3ce137adbfb232a30f857aa4ec840f78c47f79913762b7c448864e1c39c09",
+        "sha256_in_prefix": "10a3ce137adbfb232a30f857aa4ec840f78c47f79913762b7c448864e1c39c09",
+        "size_in_bytes": 8419
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/12/objmap.c",
+        "path_type": "hardlink",
+        "sha256": "7d526d7ce07fa4d1735b7e05280018d4a68a0f8e88aa0dc0ccf375f5391d9535",
+        "sha256_in_prefix": "7d526d7ce07fa4d1735b7e05280018d4a68a0f8e88aa0dc0ccf375f5391d9535",
+        "size_in_bytes": 13793
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/12/pyproject.toml",
+        "path_type": "hardlink",
+        "sha256": "66320bdaed473218dddac22c2db46d57a0dde985f53e778bd00a12e26848efc2",
+        "sha256_in_prefix": "66320bdaed473218dddac22c2db46d57a0dde985f53e778bd00a12e26848efc2",
+        "size_in_bytes": 57
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/12/qtlib.c",
+        "path_type": "hardlink",
+        "sha256": "7eb89f3d6801909a6d42e035bd1709e5d44f4f40979500c96b3c36b766e53170",
+        "sha256_in_prefix": "7eb89f3d6801909a6d42e035bd1709e5d44f4f40979500c96b3c36b766e53170",
+        "size_in_bytes": 18562
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/12/setup.cfg.in",
+        "path_type": "hardlink",
+        "sha256": "b814c9be9b56bfa87eb4d90f654ae57ba49e98026adbb188690e2f8a9ccb8df8",
+        "sha256_in_prefix": "b814c9be9b56bfa87eb4d90f654ae57ba49e98026adbb188690e2f8a9ccb8df8",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/12/setup.py.in",
+        "path_type": "hardlink",
+        "sha256": "2c84f8e175301f0bc38d7c324c746f7b1c594d7faa1398db761819cd6b37f815",
+        "sha256_in_prefix": "2c84f8e175301f0bc38d7c324c746f7b1c594d7faa1398db761819cd6b37f815",
+        "size_in_bytes": 1668
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/12/sip.h.in",
+        "path_type": "hardlink",
+        "sha256": "4ae69a7e8be2ec2368cf8c1ce5950f71ed9b786f7966db3240ee229139318fb9",
+        "sha256_in_prefix": "4ae69a7e8be2ec2368cf8c1ce5950f71ed9b786f7966db3240ee229139318fb9",
+        "size_in_bytes": 57244
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/12/sip.pyi",
+        "path_type": "hardlink",
+        "sha256": "12119f291fde5872737afdb7204f8ddfefbf7485a1bc94623c963d1bcbd791da",
+        "sha256_in_prefix": "12119f291fde5872737afdb7204f8ddfefbf7485a1bc94623c963d1bcbd791da",
+        "size_in_bytes": 4066
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/12/sip.rst.in",
+        "path_type": "hardlink",
+        "sha256": "a509e386d2a1a1f4b9dd81c65e3c99852e9eacc56fe63bac175e9d0ab398e796",
+        "sha256_in_prefix": "a509e386d2a1a1f4b9dd81c65e3c99852e9eacc56fe63bac175e9d0ab398e796",
+        "size_in_bytes": 14806
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/12/sip_array.c",
+        "path_type": "hardlink",
+        "sha256": "eb2fbc265f17e5ded2acc01e58cdfcbd3a7c734ac974174a0234b1b6828f1f89",
+        "sha256_in_prefix": "eb2fbc265f17e5ded2acc01e58cdfcbd3a7c734ac974174a0234b1b6828f1f89",
+        "size_in_bytes": 21042
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/12/sip_array.h",
+        "path_type": "hardlink",
+        "sha256": "10e6a2656ba6e3b4cc7b388617c3d714542518dcee636ec0ff02f55613566a85",
+        "sha256_in_prefix": "10e6a2656ba6e3b4cc7b388617c3d714542518dcee636ec0ff02f55613566a85",
+        "size_in_bytes": 1285
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/12/sipint.h",
+        "path_type": "hardlink",
+        "sha256": "27df07a31bb648ae9c1e974223ce2b3f30a3ad22572630c134355e7f8a8dc22b",
+        "sha256_in_prefix": "27df07a31bb648ae9c1e974223ce2b3f30a3ad22572630c134355e7f8a8dc22b",
+        "size_in_bytes": 6645
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/12/siplib.c",
+        "path_type": "hardlink",
+        "sha256": "1b8c2dd99958c1569e30861755e7efebdc147afe37792c310cf9c265da459a56",
+        "sha256_in_prefix": "1b8c2dd99958c1569e30861755e7efebdc147afe37792c310cf9c265da459a56",
+        "size_in_bytes": 353952
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/12/threads.c",
+        "path_type": "hardlink",
+        "sha256": "38794cf9cfe0468c85364ba0d24db788f103e1ca170811446adab9c9382388a6",
+        "sha256_in_prefix": "38794cf9cfe0468c85364ba0d24db788f103e1ca170811446adab9c9382388a6",
+        "size_in_bytes": 4786
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/12/voidptr.c",
+        "path_type": "hardlink",
+        "sha256": "03cf2302e4b8e6099500353bbab8668f25306e03a7e5690b89f400fdaf594b21",
+        "sha256_in_prefix": "03cf2302e4b8e6099500353bbab8668f25306e03a7e5690b89f400fdaf594b21",
+        "size_in_bytes": 19021
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/13/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "2c93b5d4af4cfdfe8d7551b2bfe971e39deb37a8ae2d40765f3fd63846418c63",
+        "sha256_in_prefix": "2c93b5d4af4cfdfe8d7551b2bfe971e39deb37a8ae2d40765f3fd63846418c63",
+        "size_in_bytes": 2766
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/13/LICENSE-GPL2",
+        "path_type": "hardlink",
+        "sha256": "7ebb61006e46b9e9340dd135d5f4afbbcb1d1d6c6709f74473b35929007b9aeb",
+        "sha256_in_prefix": "7ebb61006e46b9e9340dd135d5f4afbbcb1d1d6c6709f74473b35929007b9aeb",
+        "size_in_bytes": 18161
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/13/LICENSE-GPL3",
+        "path_type": "hardlink",
+        "sha256": "63cb5f5c1ea39b732c495f354f971e40f6db84c567ca5573a68bb65af07741f8",
+        "sha256_in_prefix": "63cb5f5c1ea39b732c495f354f971e40f6db84c567ca5573a68bb65af07741f8",
+        "size_in_bytes": 35297
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/13/MANIFEST.in",
+        "path_type": "hardlink",
+        "sha256": "330650504aaaa90cc520a7d3bbd4dcf699abf6126e7d7675b3740dc6e1f2741f",
+        "sha256_in_prefix": "330650504aaaa90cc520a7d3bbd4dcf699abf6126e7d7675b3740dc6e1f2741f",
+        "size_in_bytes": 56
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/13/README.in",
+        "path_type": "hardlink",
+        "sha256": "59217f5c4515758530ebe9d6ffa3ff577c452fa7bd72764409635b5773e3573c",
+        "sha256_in_prefix": "59217f5c4515758530ebe9d6ffa3ff577c452fa7bd72764409635b5773e3573c",
+        "size_in_bytes": 128
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/13/pyproject.toml",
+        "path_type": "hardlink",
+        "sha256": "66320bdaed473218dddac22c2db46d57a0dde985f53e778bd00a12e26848efc2",
+        "sha256_in_prefix": "66320bdaed473218dddac22c2db46d57a0dde985f53e778bd00a12e26848efc2",
+        "size_in_bytes": 57
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/13/setup.cfg.in",
+        "path_type": "hardlink",
+        "sha256": "b814c9be9b56bfa87eb4d90f654ae57ba49e98026adbb188690e2f8a9ccb8df8",
+        "sha256_in_prefix": "b814c9be9b56bfa87eb4d90f654ae57ba49e98026adbb188690e2f8a9ccb8df8",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/13/setup.py.in",
+        "path_type": "hardlink",
+        "sha256": "a9ddc94c6dbc02e4b109f0a6c28fae19dc3037832045459bc53be2e81f2147c2",
+        "sha256_in_prefix": "a9ddc94c6dbc02e4b109f0a6c28fae19dc3037832045459bc53be2e81f2147c2",
+        "size_in_bytes": 1672
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/13/sip.h.in",
+        "path_type": "hardlink",
+        "sha256": "96dcb53f4806040a7f8378c21ba7ede9251e31dc400a0a98c8d65a17c1d45f8e",
+        "sha256_in_prefix": "96dcb53f4806040a7f8378c21ba7ede9251e31dc400a0a98c8d65a17c1d45f8e",
+        "size_in_bytes": 50152
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/13/sip.pyi",
+        "path_type": "hardlink",
+        "sha256": "6e039603ff0f4899ba659b17a08dd8bc65aeae19a78ec0cc55c6e80be6017ddc",
+        "sha256_in_prefix": "6e039603ff0f4899ba659b17a08dd8bc65aeae19a78ec0cc55c6e80be6017ddc",
+        "size_in_bytes": 3880
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/13/sip.rst.in",
+        "path_type": "hardlink",
+        "sha256": "87d81d46dbf49e158cae9194324c5740d8928190e61bbb8369b31b74fda99342",
+        "sha256_in_prefix": "87d81d46dbf49e158cae9194324c5740d8928190e61bbb8369b31b74fda99342",
+        "size_in_bytes": 13964
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/13/sip_array.c",
+        "path_type": "hardlink",
+        "sha256": "9d327fb766cc64c44133a08542e60539c7f9923d2737224235973d236356de5d",
+        "sha256_in_prefix": "9d327fb766cc64c44133a08542e60539c7f9923d2737224235973d236356de5d",
+        "size_in_bytes": 21256
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/13/sip_array.h",
+        "path_type": "hardlink",
+        "sha256": "10e6a2656ba6e3b4cc7b388617c3d714542518dcee636ec0ff02f55613566a85",
+        "sha256_in_prefix": "10e6a2656ba6e3b4cc7b388617c3d714542518dcee636ec0ff02f55613566a85",
+        "size_in_bytes": 1285
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/13/sip_bool.cpp",
+        "path_type": "hardlink",
+        "sha256": "3f9e6b7a1a9308f492f655e1205db4f87f429b8b4b0ff72c0f7e1f1da9558374",
+        "sha256_in_prefix": "3f9e6b7a1a9308f492f655e1205db4f87f429b8b4b0ff72c0f7e1f1da9558374",
+        "size_in_bytes": 859
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/13/sip_core.c",
+        "path_type": "hardlink",
+        "sha256": "b368dca0ee997f584dba5010bd0f811be366fe3ab6aea98cea46c27c5bea4593",
+        "sha256_in_prefix": "b368dca0ee997f584dba5010bd0f811be366fe3ab6aea98cea46c27c5bea4593",
+        "size_in_bytes": 313165
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/13/sip_core.h",
+        "path_type": "hardlink",
+        "sha256": "a51e64e9647bb0704ca07447c44c8ac66d41b07d837f0bcbdeddbd4d2ec94116",
+        "sha256_in_prefix": "a51e64e9647bb0704ca07447c44c8ac66d41b07d837f0bcbdeddbd4d2ec94116",
+        "size_in_bytes": 5397
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/13/sip_descriptors.c",
+        "path_type": "hardlink",
+        "sha256": "078ed69b3b30e0c18dfaea6830c84276e8f3d8d9e4dd3018f6bc5659571676ed",
+        "sha256_in_prefix": "078ed69b3b30e0c18dfaea6830c84276e8f3d8d9e4dd3018f6bc5659571676ed",
+        "size_in_bytes": 13975
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/13/sip_enum.c",
+        "path_type": "hardlink",
+        "sha256": "b458ff29a3506d202b556dad6cca489fca6ae26a290a509547069477a948c37b",
+        "sha256_in_prefix": "b458ff29a3506d202b556dad6cca489fca6ae26a290a509547069477a948c37b",
+        "size_in_bytes": 14690
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/13/sip_enum.h",
+        "path_type": "hardlink",
+        "sha256": "4a270082d9a3db9c49c24b2ba64dd7a578ef00c0689bfd88c4e9073280342934",
+        "sha256_in_prefix": "4a270082d9a3db9c49c24b2ba64dd7a578ef00c0689bfd88c4e9073280342934",
+        "size_in_bytes": 1296
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/13/sip_int_convertors.c",
+        "path_type": "hardlink",
+        "sha256": "c0fb4a1078b59e7851d35e2f8874a663f22ace31784b72dd4ba28a8a7bea4d85",
+        "sha256_in_prefix": "c0fb4a1078b59e7851d35e2f8874a663f22ace31784b72dd4ba28a8a7bea4d85",
+        "size_in_bytes": 5650
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/13/sip_object_map.c",
+        "path_type": "hardlink",
+        "sha256": "f584d79f47097cce37f5a2e6677f5eba4527070aa41352cbaa7cc3858e39f827",
+        "sha256_in_prefix": "f584d79f47097cce37f5a2e6677f5eba4527070aa41352cbaa7cc3858e39f827",
+        "size_in_bytes": 13795
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/13/sip_threads.c",
+        "path_type": "hardlink",
+        "sha256": "380f691662f0ce4acc46f5bc389e979566429da9db0e3f304bcc231387286c25",
+        "sha256_in_prefix": "380f691662f0ce4acc46f5bc389e979566429da9db0e3f304bcc231387286c25",
+        "size_in_bytes": 4788
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/module/source/13/sip_voidptr.c",
+        "path_type": "hardlink",
+        "sha256": "215bfe1c745d6fee51d0707946fc638a806eb45ecb2c0aa0fd2b236fbcba1b8b",
+        "sha256_in_prefix": "215bfe1c745d6fee51d0707946fc638a806eb45ecb2c0aa0fd2b236fbcba1b8b",
+        "size_in_bytes": 19169
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/project.py",
+        "path_type": "hardlink",
+        "sha256": "a2cc6ef0fead7cd6b5a5441e81a07fcf07a5bfd4cf0cac7634a4ab5d263d5700",
+        "sha256_in_prefix": "a2cc6ef0fead7cd6b5a5441e81a07fcf07a5bfd4cf0cac7634a4ab5d263d5700",
+        "size_in_bytes": 31940
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/py_versions.py",
+        "path_type": "hardlink",
+        "sha256": "a87975020a151cec665cd9e4a6c152a75028e822b5b27060f1cb96bae9c708ba",
+        "sha256_in_prefix": "a87975020a151cec665cd9e4a6c152a75028e822b5b27060f1cb96bae9c708ba",
+        "size_in_bytes": 1293
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/pyproject.py",
+        "path_type": "hardlink",
+        "sha256": "cadbae4690e35ba585d17d7c14ad79f0b87067d82f621b04e778854b5670a190",
+        "sha256_in_prefix": "cadbae4690e35ba585d17d7c14ad79f0b87067d82f621b04e778854b5670a190",
+        "size_in_bytes": 6195
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/setuptools_builder.py",
+        "path_type": "hardlink",
+        "sha256": "596651c479e8fe4d467e8e78a93b0bdfab0a7e0d2fc0514647cf8a8b7b3c15d3",
+        "sha256_in_prefix": "596651c479e8fe4d467e8e78a93b0bdfab0a7e0d2fc0514647cf8a8b7b3c15d3",
+        "size_in_bytes": 6564
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/toml.py",
+        "path_type": "hardlink",
+        "sha256": "872b0a6b664c532fcfbc2abc04d1e5f9f05fb6f5d95a23a049e3b99b57db937e",
+        "sha256_in_prefix": "872b0a6b664c532fcfbc2abc04d1e5f9f05fb6f5d95a23a049e3b99b57db937e",
+        "size_in_bytes": 1458
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/tools/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "df61d23efb34535249b01b1c37b6d22fd5671454fd50a09594976c614ed1032e",
+        "sha256_in_prefix": "df61d23efb34535249b01b1c37b6d22fd5671454fd50a09594976c614ed1032e",
+        "size_in_bytes": 1213
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/tools/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b52e11ef8ce855e7c3fce82af7ebffdadc5ce7b05f91e735d9da9e260f07938f",
+        "sha256_in_prefix": "b52e11ef8ce855e7c3fce82af7ebffdadc5ce7b05f91e735d9da9e260f07938f",
+        "size_in_bytes": 148
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/tools/__pycache__/build.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "4ab5510535361f6292b73d279d2a66cdb0d3573d9ae68b9eed5bdf516ab45191",
+        "sha256_in_prefix": "4ab5510535361f6292b73d279d2a66cdb0d3573d9ae68b9eed5bdf516ab45191",
+        "size_in_bytes": 703
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/tools/__pycache__/install.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9b4639c78449b93e50a0862ee26d6dab0222c47154983e20c5023924f9e46ed2",
+        "sha256_in_prefix": "9b4639c78449b93e50a0862ee26d6dab0222c47154983e20c5023924f9e46ed2",
+        "size_in_bytes": 709
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/tools/__pycache__/sdist.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a57c2864856ae790ed7df7ba41be0f1f49854f8b5523f4bcbde6c9e48b0f349a",
+        "sha256_in_prefix": "a57c2864856ae790ed7df7ba41be0f1f49854f8b5523f4bcbde6c9e48b0f349a",
+        "size_in_bytes": 724
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/tools/__pycache__/wheel.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "047075cbc5d6d76fe77f36f6af0193de2eb0b70ec734e9fc2689dca67157aef2",
+        "sha256_in_prefix": "047075cbc5d6d76fe77f36f6af0193de2eb0b70ec734e9fc2689dca67157aef2",
+        "size_in_bytes": 722
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/tools/build.py",
+        "path_type": "hardlink",
+        "sha256": "c5e7d8dc28c817bb82f106b362b43bdd61d18dc4e200ec1997253d3bef0466b8",
+        "sha256_in_prefix": "c5e7d8dc28c817bb82f106b362b43bdd61d18dc4e200ec1997253d3bef0466b8",
+        "size_in_bytes": 1703
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/tools/install.py",
+        "path_type": "hardlink",
+        "sha256": "1b5eea3740d1d551ef98cb87493a61cb97e8f63000b37e150b858992f3bf893b",
+        "sha256_in_prefix": "1b5eea3740d1d551ef98cb87493a61cb97e8f63000b37e150b858992f3bf893b",
+        "size_in_bytes": 1709
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/tools/sdist.py",
+        "path_type": "hardlink",
+        "sha256": "ee167be3d29066b6cd62d9f40160eb796271a2b4315fbd9cbd18d7702986151c",
+        "sha256_in_prefix": "ee167be3d29066b6cd62d9f40160eb796271a2b4315fbd9cbd18d7702986151c",
+        "size_in_bytes": 1720
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/tools/wheel.py",
+        "path_type": "hardlink",
+        "sha256": "fbac12d987e874920d1018491fdf9b4c19a3a161287d9fd56cfd9f6e15a6c36c",
+        "sha256_in_prefix": "fbac12d987e874920d1018491fdf9b4c19a3a161287d9fd56cfd9f6e15a6c36c",
+        "size_in_bytes": 1718
+      },
+      {
+        "_path": "lib/python3.10/site-packages/sipbuild/version.py",
+        "path_type": "hardlink",
+        "sha256": "74410cf51d284120ed15dcfe01357cf21a6f703225009a91bf8cb3af528340a1",
+        "sha256_in_prefix": "74410cf51d284120ed15dcfe01357cf21a6f703225009a91bf8cb3af528340a1",
+        "size_in_bytes": 50
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "sip==6.7.12=py310h6d0c2b6_1",
+  "sha256": "aa186accb6e03e9b9a4dcb338bde2a5d58e862917f88c934bcfea9066c53a31b",
+  "size": 510415,
+  "subdir": "osx-64",
+  "timestamp": 1736545758332,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/sip-6.7.12-py310h6d0c2b6_1.conda",
+  "version": "6.7.12"
+}

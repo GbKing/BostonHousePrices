@@ -1,0 +1,2038 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.24.4",
+    "pandas >=2.0.3",
+    "python >=3.9",
+    "scikit-learn >=1.2.1",
+    "scipy >=1.9.3"
+  ],
+  "extracted_package_dir": "/Users/gbengaogunwale/opt/anaconda3/pkgs/fairlearn-0.12.0-pyhd8ed1ab_1",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/fairlearn-0.12.0.dev0.dist-info/AUTHORS.md",
+    "lib/python3.10/site-packages/fairlearn-0.12.0.dev0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/fairlearn-0.12.0.dev0.dist-info/LICENSE",
+    "lib/python3.10/site-packages/fairlearn-0.12.0.dev0.dist-info/METADATA",
+    "lib/python3.10/site-packages/fairlearn-0.12.0.dev0.dist-info/RECORD",
+    "lib/python3.10/site-packages/fairlearn-0.12.0.dev0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/fairlearn-0.12.0.dev0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/fairlearn-0.12.0.dev0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/fairlearn-0.12.0.dev0.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/fairlearn/__init__.py",
+    "lib/python3.10/site-packages/fairlearn/adversarial/__init__.py",
+    "lib/python3.10/site-packages/fairlearn/adversarial/_adversarial_mitigation.py",
+    "lib/python3.10/site-packages/fairlearn/adversarial/_backend_engine.py",
+    "lib/python3.10/site-packages/fairlearn/adversarial/_constants.py",
+    "lib/python3.10/site-packages/fairlearn/adversarial/_preprocessor.py",
+    "lib/python3.10/site-packages/fairlearn/adversarial/_pytorch_engine.py",
+    "lib/python3.10/site-packages/fairlearn/adversarial/_tensorflow_engine.py",
+    "lib/python3.10/site-packages/fairlearn/datasets/__init__.py",
+    "lib/python3.10/site-packages/fairlearn/datasets/_constants.py",
+    "lib/python3.10/site-packages/fairlearn/datasets/_fetch_acs_income.py",
+    "lib/python3.10/site-packages/fairlearn/datasets/_fetch_adult.py",
+    "lib/python3.10/site-packages/fairlearn/datasets/_fetch_bank_marketing.py",
+    "lib/python3.10/site-packages/fairlearn/datasets/_fetch_boston.py",
+    "lib/python3.10/site-packages/fairlearn/datasets/_fetch_credit_card.py",
+    "lib/python3.10/site-packages/fairlearn/datasets/_fetch_diabetes_hospital.py",
+    "lib/python3.10/site-packages/fairlearn/exceptions.py",
+    "lib/python3.10/site-packages/fairlearn/experimental/__init__.py",
+    "lib/python3.10/site-packages/fairlearn/experimental/enable_metric_frame_plotting.py",
+    "lib/python3.10/site-packages/fairlearn/metrics/__init__.py",
+    "lib/python3.10/site-packages/fairlearn/metrics/_annotated_metric_function.py",
+    "lib/python3.10/site-packages/fairlearn/metrics/_base_metrics.py",
+    "lib/python3.10/site-packages/fairlearn/metrics/_bootstrap.py",
+    "lib/python3.10/site-packages/fairlearn/metrics/_disaggregated_result.py",
+    "lib/python3.10/site-packages/fairlearn/metrics/_fairness_metrics.py",
+    "lib/python3.10/site-packages/fairlearn/metrics/_generated_metrics.py",
+    "lib/python3.10/site-packages/fairlearn/metrics/_group_feature.py",
+    "lib/python3.10/site-packages/fairlearn/metrics/_make_derived_metric.py",
+    "lib/python3.10/site-packages/fairlearn/metrics/_metric_frame.py",
+    "lib/python3.10/site-packages/fairlearn/metrics/_plot_model_comparison.py",
+    "lib/python3.10/site-packages/fairlearn/metrics/_plotter.py",
+    "lib/python3.10/site-packages/fairlearn/postprocessing/__init__.py",
+    "lib/python3.10/site-packages/fairlearn/postprocessing/_constants.py",
+    "lib/python3.10/site-packages/fairlearn/postprocessing/_interpolated_thresholder.py",
+    "lib/python3.10/site-packages/fairlearn/postprocessing/_plotting.py",
+    "lib/python3.10/site-packages/fairlearn/postprocessing/_threshold_operation.py",
+    "lib/python3.10/site-packages/fairlearn/postprocessing/_threshold_optimizer.py",
+    "lib/python3.10/site-packages/fairlearn/postprocessing/_tradeoff_curve_utilities.py",
+    "lib/python3.10/site-packages/fairlearn/preprocessing/__init__.py",
+    "lib/python3.10/site-packages/fairlearn/preprocessing/_correlation_remover.py",
+    "lib/python3.10/site-packages/fairlearn/reductions/__init__.py",
+    "lib/python3.10/site-packages/fairlearn/reductions/_exponentiated_gradient/__init__.py",
+    "lib/python3.10/site-packages/fairlearn/reductions/_exponentiated_gradient/_constants.py",
+    "lib/python3.10/site-packages/fairlearn/reductions/_exponentiated_gradient/_lagrangian.py",
+    "lib/python3.10/site-packages/fairlearn/reductions/_exponentiated_gradient/exponentiated_gradient.py",
+    "lib/python3.10/site-packages/fairlearn/reductions/_grid_search/__init__.py",
+    "lib/python3.10/site-packages/fairlearn/reductions/_grid_search/_grid_generator.py",
+    "lib/python3.10/site-packages/fairlearn/reductions/_grid_search/grid_search.py",
+    "lib/python3.10/site-packages/fairlearn/reductions/_moments/__init__.py",
+    "lib/python3.10/site-packages/fairlearn/reductions/_moments/bounded_group_loss.py",
+    "lib/python3.10/site-packages/fairlearn/reductions/_moments/error_rate.py",
+    "lib/python3.10/site-packages/fairlearn/reductions/_moments/moment.py",
+    "lib/python3.10/site-packages/fairlearn/reductions/_moments/utility_parity.py",
+    "lib/python3.10/site-packages/fairlearn/show_versions.py",
+    "lib/python3.10/site-packages/fairlearn/utils/__init__.py",
+    "lib/python3.10/site-packages/fairlearn/utils/_common.py",
+    "lib/python3.10/site-packages/fairlearn/utils/_compatibility.py",
+    "lib/python3.10/site-packages/fairlearn/utils/_fixes.py",
+    "lib/python3.10/site-packages/fairlearn/utils/_input_manipulations.py",
+    "lib/python3.10/site-packages/fairlearn/utils/_input_validation.py",
+    "lib/python3.10/site-packages/test/__init__.py",
+    "lib/python3.10/site-packages/test/install/__init__.py",
+    "lib/python3.10/site-packages/test/install/test_no_matplotlib.py",
+    "lib/python3.10/site-packages/test/install/test_no_ml.py",
+    "lib/python3.10/site-packages/test/unit/__init__.py",
+    "lib/python3.10/site-packages/test/unit/adversarial/__init__.py",
+    "lib/python3.10/site-packages/test/unit/adversarial/helper.py",
+    "lib/python3.10/site-packages/test/unit/adversarial/test_adversarial_mitigation.py",
+    "lib/python3.10/site-packages/test/unit/adversarial/test_preprocessing.py",
+    "lib/python3.10/site-packages/test/unit/conftest.py",
+    "lib/python3.10/site-packages/test/unit/constants.py",
+    "lib/python3.10/site-packages/test/unit/datasets/__init__.py",
+    "lib/python3.10/site-packages/test/unit/datasets/test_datasets.py",
+    "lib/python3.10/site-packages/test/unit/fixes.py",
+    "lib/python3.10/site-packages/test/unit/input_convertors.py",
+    "lib/python3.10/site-packages/test/unit/metrics/__init__.py",
+    "lib/python3.10/site-packages/test/unit/metrics/data_for_test.py",
+    "lib/python3.10/site-packages/test/unit/metrics/test_annotated_metric_function.py",
+    "lib/python3.10/site-packages/test/unit/metrics/test_base_metrics.py",
+    "lib/python3.10/site-packages/test/unit/metrics/test_bootstrap.py",
+    "lib/python3.10/site-packages/test/unit/metrics/test_disaggregated_result.py",
+    "lib/python3.10/site-packages/test/unit/metrics/test_fairness_metrics.py",
+    "lib/python3.10/site-packages/test/unit/metrics/test_generated_metrics.py",
+    "lib/python3.10/site-packages/test/unit/metrics/test_group_feature.py",
+    "lib/python3.10/site-packages/test/unit/metrics/test_make_derived_metric.py",
+    "lib/python3.10/site-packages/test/unit/metrics/test_mean_predictions.py",
+    "lib/python3.10/site-packages/test/unit/metrics/test_metricframe_aggregates.py",
+    "lib/python3.10/site-packages/test/unit/metrics/test_metricframe_bootstrap.py",
+    "lib/python3.10/site-packages/test/unit/metrics/test_metricframe_by_group.py",
+    "lib/python3.10/site-packages/test/unit/metrics/test_metricframe_comprehensive.py",
+    "lib/python3.10/site-packages/test/unit/metrics/test_metricframe_missing.py",
+    "lib/python3.10/site-packages/test/unit/metrics/test_metricframe_multiclass.py",
+    "lib/python3.10/site-packages/test/unit/metrics/test_metricframe_nonscalar.py",
+    "lib/python3.10/site-packages/test/unit/metrics/test_metricframe_overall.py",
+    "lib/python3.10/site-packages/test/unit/metrics/test_metricframe_process_features.py",
+    "lib/python3.10/site-packages/test/unit/metrics/test_metricframe_smoke.py",
+    "lib/python3.10/site-packages/test/unit/metrics/test_plot_metricframe.py",
+    "lib/python3.10/site-packages/test/unit/metrics/test_plot_model_comparison.py",
+    "lib/python3.10/site-packages/test/unit/metrics/test_selection_rate.py",
+    "lib/python3.10/site-packages/test/unit/metrics/utils.py",
+    "lib/python3.10/site-packages/test/unit/postprocessing/__init__.py",
+    "lib/python3.10/site-packages/test/unit/postprocessing/conftest.py",
+    "lib/python3.10/site-packages/test/unit/postprocessing/test_curve_utilities.py",
+    "lib/python3.10/site-packages/test/unit/postprocessing/test_plots.py",
+    "lib/python3.10/site-packages/test/unit/postprocessing/test_smoke.py",
+    "lib/python3.10/site-packages/test/unit/postprocessing/test_threshold_operation.py",
+    "lib/python3.10/site-packages/test/unit/postprocessing/test_threshold_optimization.py",
+    "lib/python3.10/site-packages/test/unit/postprocessing/test_threshold_optimizer_multiple_sensitive_features.py",
+    "lib/python3.10/site-packages/test/unit/preprocessing/__init__.py",
+    "lib/python3.10/site-packages/test/unit/preprocessing/linear_dep_remover/__init__.py",
+    "lib/python3.10/site-packages/test/unit/preprocessing/linear_dep_remover/test_correlation_remover_efficiency.py",
+    "lib/python3.10/site-packages/test/unit/preprocessing/linear_dep_remover/test_sklearn_compat.py",
+    "lib/python3.10/site-packages/test/unit/reductions/__init__.py",
+    "lib/python3.10/site-packages/test/unit/reductions/conftest.py",
+    "lib/python3.10/site-packages/test/unit/reductions/data_generators.py",
+    "lib/python3.10/site-packages/test/unit/reductions/exponentiated_gradient/__init__.py",
+    "lib/python3.10/site-packages/test/unit/reductions/exponentiated_gradient/simple_learners.py",
+    "lib/python3.10/site-packages/test/unit/reductions/exponentiated_gradient/test_control_features.py",
+    "lib/python3.10/site-packages/test/unit/reductions/exponentiated_gradient/test_exponentiatedgradient_arguments.py",
+    "lib/python3.10/site-packages/test/unit/reductions/exponentiated_gradient/test_exponentiatedgradient_smoke.py",
+    "lib/python3.10/site-packages/test/unit/reductions/exponentiated_gradient/test_lagrangian.py",
+    "lib/python3.10/site-packages/test/unit/reductions/exponentiated_gradient/test_pickle.py",
+    "lib/python3.10/site-packages/test/unit/reductions/exponentiated_gradient/test_utilities.py",
+    "lib/python3.10/site-packages/test/unit/reductions/grid_search/__init__.py",
+    "lib/python3.10/site-packages/test/unit/reductions/grid_search/test_grid_generator.py",
+    "lib/python3.10/site-packages/test/unit/reductions/grid_search/test_grid_search_arguments.py",
+    "lib/python3.10/site-packages/test/unit/reductions/grid_search/test_grid_search_demographicparity.py",
+    "lib/python3.10/site-packages/test/unit/reductions/grid_search/test_grid_search_regression.py",
+    "lib/python3.10/site-packages/test/unit/reductions/grid_search/test_pickle.py",
+    "lib/python3.10/site-packages/test/unit/reductions/grid_search/utilities.py",
+    "lib/python3.10/site-packages/test/unit/reductions/moments/__init__.py",
+    "lib/python3.10/site-packages/test/unit/reductions/moments/data_generator.py",
+    "lib/python3.10/site-packages/test/unit/reductions/moments/test_moments_bounded_group_loss.py",
+    "lib/python3.10/site-packages/test/unit/reductions/moments/test_moments_control_features.py",
+    "lib/python3.10/site-packages/test/unit/reductions/moments/test_moments_demographic_parity.py",
+    "lib/python3.10/site-packages/test/unit/reductions/moments/test_moments_equalized_odds.py",
+    "lib/python3.10/site-packages/test/unit/reductions/moments/test_moments_error_rate.py",
+    "lib/python3.10/site-packages/test/unit/reductions/test_smoke.py",
+    "lib/python3.10/site-packages/test/unit/test_random_state.py",
+    "lib/python3.10/site-packages/test/unit/test_show_versions.py",
+    "lib/python3.10/site-packages/test/unit/utility_functions.py",
+    "lib/python3.10/site-packages/test_othermlpackages/__init__.py",
+    "lib/python3.10/site-packages/test_othermlpackages/adversarial_fairness.py",
+    "lib/python3.10/site-packages/test_othermlpackages/package_test_common.py",
+    "lib/python3.10/site-packages/test_othermlpackages/test_lightgbm.py",
+    "lib/python3.10/site-packages/test_othermlpackages/test_pytorch.py",
+    "lib/python3.10/site-packages/test_othermlpackages/test_tensorflow.py",
+    "lib/python3.10/site-packages/test_othermlpackages/test_xgboost.py",
+    "lib/python3.10/site-packages/fairlearn/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/adversarial/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/adversarial/__pycache__/_adversarial_mitigation.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/adversarial/__pycache__/_backend_engine.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/adversarial/__pycache__/_constants.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/adversarial/__pycache__/_preprocessor.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/adversarial/__pycache__/_pytorch_engine.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/adversarial/__pycache__/_tensorflow_engine.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/datasets/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/datasets/__pycache__/_constants.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/datasets/__pycache__/_fetch_acs_income.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/datasets/__pycache__/_fetch_adult.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/datasets/__pycache__/_fetch_bank_marketing.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/datasets/__pycache__/_fetch_boston.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/datasets/__pycache__/_fetch_credit_card.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/datasets/__pycache__/_fetch_diabetes_hospital.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/__pycache__/exceptions.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/experimental/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/experimental/__pycache__/enable_metric_frame_plotting.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/metrics/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/metrics/__pycache__/_annotated_metric_function.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/metrics/__pycache__/_base_metrics.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/metrics/__pycache__/_bootstrap.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/metrics/__pycache__/_disaggregated_result.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/metrics/__pycache__/_fairness_metrics.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/metrics/__pycache__/_generated_metrics.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/metrics/__pycache__/_group_feature.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/metrics/__pycache__/_make_derived_metric.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/metrics/__pycache__/_metric_frame.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/metrics/__pycache__/_plot_model_comparison.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/metrics/__pycache__/_plotter.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/postprocessing/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/postprocessing/__pycache__/_constants.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/postprocessing/__pycache__/_interpolated_thresholder.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/postprocessing/__pycache__/_plotting.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/postprocessing/__pycache__/_threshold_operation.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/postprocessing/__pycache__/_threshold_optimizer.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/postprocessing/__pycache__/_tradeoff_curve_utilities.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/preprocessing/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/preprocessing/__pycache__/_correlation_remover.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/reductions/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/reductions/_exponentiated_gradient/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/reductions/_exponentiated_gradient/__pycache__/_constants.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/reductions/_exponentiated_gradient/__pycache__/_lagrangian.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/reductions/_exponentiated_gradient/__pycache__/exponentiated_gradient.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/reductions/_grid_search/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/reductions/_grid_search/__pycache__/_grid_generator.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/reductions/_grid_search/__pycache__/grid_search.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/reductions/_moments/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/reductions/_moments/__pycache__/bounded_group_loss.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/reductions/_moments/__pycache__/error_rate.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/reductions/_moments/__pycache__/moment.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/reductions/_moments/__pycache__/utility_parity.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/__pycache__/show_versions.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/utils/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/utils/__pycache__/_common.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/utils/__pycache__/_compatibility.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/utils/__pycache__/_fixes.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/utils/__pycache__/_input_manipulations.cpython-310.pyc",
+    "lib/python3.10/site-packages/fairlearn/utils/__pycache__/_input_validation.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/install/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/install/__pycache__/test_no_matplotlib.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/install/__pycache__/test_no_ml.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/adversarial/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/adversarial/__pycache__/helper.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/adversarial/__pycache__/test_adversarial_mitigation.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/adversarial/__pycache__/test_preprocessing.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/__pycache__/conftest.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/__pycache__/constants.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/datasets/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/datasets/__pycache__/test_datasets.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/__pycache__/fixes.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/__pycache__/input_convertors.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/metrics/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/metrics/__pycache__/data_for_test.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_annotated_metric_function.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_base_metrics.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_bootstrap.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_disaggregated_result.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_fairness_metrics.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_generated_metrics.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_group_feature.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_make_derived_metric.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_mean_predictions.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_metricframe_aggregates.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_metricframe_bootstrap.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_metricframe_by_group.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_metricframe_comprehensive.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_metricframe_missing.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_metricframe_multiclass.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_metricframe_nonscalar.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_metricframe_overall.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_metricframe_process_features.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_metricframe_smoke.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_plot_metricframe.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_plot_model_comparison.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_selection_rate.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/metrics/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/postprocessing/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/postprocessing/__pycache__/conftest.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/postprocessing/__pycache__/test_curve_utilities.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/postprocessing/__pycache__/test_plots.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/postprocessing/__pycache__/test_smoke.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/postprocessing/__pycache__/test_threshold_operation.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/postprocessing/__pycache__/test_threshold_optimization.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/postprocessing/__pycache__/test_threshold_optimizer_multiple_sensitive_features.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/preprocessing/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/preprocessing/linear_dep_remover/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/preprocessing/linear_dep_remover/__pycache__/test_correlation_remover_efficiency.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/preprocessing/linear_dep_remover/__pycache__/test_sklearn_compat.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/reductions/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/reductions/__pycache__/conftest.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/reductions/__pycache__/data_generators.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/reductions/exponentiated_gradient/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/reductions/exponentiated_gradient/__pycache__/simple_learners.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/reductions/exponentiated_gradient/__pycache__/test_control_features.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/reductions/exponentiated_gradient/__pycache__/test_exponentiatedgradient_arguments.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/reductions/exponentiated_gradient/__pycache__/test_exponentiatedgradient_smoke.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/reductions/exponentiated_gradient/__pycache__/test_lagrangian.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/reductions/exponentiated_gradient/__pycache__/test_pickle.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/reductions/exponentiated_gradient/__pycache__/test_utilities.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/reductions/grid_search/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/reductions/grid_search/__pycache__/test_grid_generator.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/reductions/grid_search/__pycache__/test_grid_search_arguments.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/reductions/grid_search/__pycache__/test_grid_search_demographicparity.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/reductions/grid_search/__pycache__/test_grid_search_regression.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/reductions/grid_search/__pycache__/test_pickle.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/reductions/grid_search/__pycache__/utilities.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/reductions/moments/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/reductions/moments/__pycache__/data_generator.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/reductions/moments/__pycache__/test_moments_bounded_group_loss.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/reductions/moments/__pycache__/test_moments_control_features.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/reductions/moments/__pycache__/test_moments_demographic_parity.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/reductions/moments/__pycache__/test_moments_equalized_odds.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/reductions/moments/__pycache__/test_moments_error_rate.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/reductions/__pycache__/test_smoke.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/__pycache__/test_random_state.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/__pycache__/test_show_versions.cpython-310.pyc",
+    "lib/python3.10/site-packages/test/unit/__pycache__/utility_functions.cpython-310.pyc",
+    "lib/python3.10/site-packages/test_othermlpackages/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/test_othermlpackages/__pycache__/adversarial_fairness.cpython-310.pyc",
+    "lib/python3.10/site-packages/test_othermlpackages/__pycache__/package_test_common.cpython-310.pyc",
+    "lib/python3.10/site-packages/test_othermlpackages/__pycache__/test_lightgbm.cpython-310.pyc",
+    "lib/python3.10/site-packages/test_othermlpackages/__pycache__/test_pytorch.cpython-310.pyc",
+    "lib/python3.10/site-packages/test_othermlpackages/__pycache__/test_tensorflow.cpython-310.pyc",
+    "lib/python3.10/site-packages/test_othermlpackages/__pycache__/test_xgboost.cpython-310.pyc"
+  ],
+  "fn": "fairlearn-0.12.0-pyhd8ed1ab_1.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/gbengaogunwale/opt/anaconda3/pkgs/fairlearn-0.12.0-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "2aed831c914ded733363579378e1cda3",
+  "name": "fairlearn",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/gbengaogunwale/opt/anaconda3/pkgs/fairlearn-0.12.0-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/fairlearn-0.12.0.dev0.dist-info/AUTHORS.md",
+        "path_type": "hardlink",
+        "sha256": "60a6951ff2f81279ccde81170621da068aaf55eb32cc13733f6f740d1f89122f",
+        "sha256_in_prefix": "60a6951ff2f81279ccde81170621da068aaf55eb32cc13733f6f740d1f89122f",
+        "size_in_bytes": 2026
+      },
+      {
+        "_path": "site-packages/fairlearn-0.12.0.dev0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/fairlearn-0.12.0.dev0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "d5256e70bf84093c7de391e7a5771f37cfb91cb720c308ea983dce6101dc10ab",
+        "sha256_in_prefix": "d5256e70bf84093c7de391e7a5771f37cfb91cb720c308ea983dce6101dc10ab",
+        "size_in_bytes": 1168
+      },
+      {
+        "_path": "site-packages/fairlearn-0.12.0.dev0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "49b30fe89a2bc4218c2e32c0dd824186cfe6da0ba4c60af7533fc93dfc2de2f7",
+        "sha256_in_prefix": "49b30fe89a2bc4218c2e32c0dd824186cfe6da0ba4c60af7533fc93dfc2de2f7",
+        "size_in_bytes": 6991
+      },
+      {
+        "_path": "site-packages/fairlearn-0.12.0.dev0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "b4fdd8ada6dd1ba8982b96c25ebb1014a6fe30850194fca80493409775a7e852",
+        "sha256_in_prefix": "b4fdd8ada6dd1ba8982b96c25ebb1014a6fe30850194fca80493409775a7e852",
+        "size_in_bytes": 26172
+      },
+      {
+        "_path": "site-packages/fairlearn-0.12.0.dev0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/fairlearn-0.12.0.dev0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "sha256_in_prefix": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/fairlearn-0.12.0.dev0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "f1c2071a3ce1c430c851fe7fbcb724d6df7e4a078b6c486a42510e66d2d096fc",
+        "sha256_in_prefix": "f1c2071a3ce1c430c851fe7fbcb724d6df7e4a078b6c486a42510e66d2d096fc",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/fairlearn-0.12.0.dev0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "8a64e717e9fe8004eeb181a1c1bc264029f3b6bb0965919638738bd37aab5d2e",
+        "sha256_in_prefix": "8a64e717e9fe8004eeb181a1c1bc264029f3b6bb0965919638738bd37aab5d2e",
+        "size_in_bytes": 36
+      },
+      {
+        "_path": "site-packages/fairlearn/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "48ed4b6be900ccb0d1ddb25caca46f09eb486ccece3512d2ad9947c03fe374dd",
+        "sha256_in_prefix": "48ed4b6be900ccb0d1ddb25caca46f09eb486ccece3512d2ad9947c03fe374dd",
+        "size_in_bytes": 1028
+      },
+      {
+        "_path": "site-packages/fairlearn/adversarial/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c4beac376c44cac178da19fac25eb83864d7588fd8931e9bcb156e7aebc04b65",
+        "sha256_in_prefix": "c4beac376c44cac178da19fac25eb83864d7588fd8931e9bcb156e7aebc04b65",
+        "size_in_bytes": 333
+      },
+      {
+        "_path": "site-packages/fairlearn/adversarial/_adversarial_mitigation.py",
+        "path_type": "hardlink",
+        "sha256": "435bfd63600618f52f9d86f1fdedfe0b98500990ea795fbec18aa9cad6d0b325",
+        "sha256_in_prefix": "435bfd63600618f52f9d86f1fdedfe0b98500990ea795fbec18aa9cad6d0b325",
+        "size_in_bytes": 50251
+      },
+      {
+        "_path": "site-packages/fairlearn/adversarial/_backend_engine.py",
+        "path_type": "hardlink",
+        "sha256": "4bf0226119e6af7bc5f95fdc871035eb301a96f34bb746ac395d99c6b3766b94",
+        "sha256_in_prefix": "4bf0226119e6af7bc5f95fdc871035eb301a96f34bb746ac395d99c6b3766b94",
+        "size_in_bytes": 8613
+      },
+      {
+        "_path": "site-packages/fairlearn/adversarial/_constants.py",
+        "path_type": "hardlink",
+        "sha256": "b66b1ae9c193a3ae79ac96ddc542d4f22628f2cacaeac2facc79b6654facac6b",
+        "sha256_in_prefix": "b66b1ae9c193a3ae79ac96ddc542d4f22628f2cacaeac2facc79b6654facac6b",
+        "size_in_bytes": 2058
+      },
+      {
+        "_path": "site-packages/fairlearn/adversarial/_preprocessor.py",
+        "path_type": "hardlink",
+        "sha256": "88b473929e417b723bb4107fa14997f5d44d9e8c907dc20bbab19b67e43337b2",
+        "sha256_in_prefix": "88b473929e417b723bb4107fa14997f5d44d9e8c907dc20bbab19b67e43337b2",
+        "size_in_bytes": 4867
+      },
+      {
+        "_path": "site-packages/fairlearn/adversarial/_pytorch_engine.py",
+        "path_type": "hardlink",
+        "sha256": "b80666d1bce1501b156cc772197e239adc207836424aa0143c10fabd1c50129f",
+        "sha256_in_prefix": "b80666d1bce1501b156cc772197e239adc207836424aa0143c10fabd1c50129f",
+        "size_in_bytes": 8143
+      },
+      {
+        "_path": "site-packages/fairlearn/adversarial/_tensorflow_engine.py",
+        "path_type": "hardlink",
+        "sha256": "9094e6e7b5233885103ba159f2a9a71af5fcc2c327ab073461750ed8c58dfc06",
+        "sha256_in_prefix": "9094e6e7b5233885103ba159f2a9a71af5fcc2c327ab073461750ed8c58dfc06",
+        "size_in_bytes": 6145
+      },
+      {
+        "_path": "site-packages/fairlearn/datasets/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0f1b752bdaa74ade9fda8c16cf3998de56b7ddbdbd50a992f5902e3a2dbc2651",
+        "sha256_in_prefix": "0f1b752bdaa74ade9fda8c16cf3998de56b7ddbdbd50a992f5902e3a2dbc2651",
+        "size_in_bytes": 645
+      },
+      {
+        "_path": "site-packages/fairlearn/datasets/_constants.py",
+        "path_type": "hardlink",
+        "sha256": "e5eeb5c0410b0afca7a972245ef5004e713c7ff2f61d2a950bd67a3579c16340",
+        "sha256_in_prefix": "e5eeb5c0410b0afca7a972245ef5004e713c7ff2f61d2a950bd67a3579c16340",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "site-packages/fairlearn/datasets/_fetch_acs_income.py",
+        "path_type": "hardlink",
+        "sha256": "df99537cb9e8705459951e71ed801160a0cf7ec79b2926a297084037bdb40f66",
+        "sha256_in_prefix": "df99537cb9e8705459951e71ed801160a0cf7ec79b2926a297084037bdb40f66",
+        "size_in_bytes": 6573
+      },
+      {
+        "_path": "site-packages/fairlearn/datasets/_fetch_adult.py",
+        "path_type": "hardlink",
+        "sha256": "e68ffa2989a0930de1020566bc3870b4fb4d7c4f9774ad4134914e69a281b37b",
+        "sha256_in_prefix": "e68ffa2989a0930de1020566bc3870b4fb4d7c4f9774ad4134914e69a281b37b",
+        "size_in_bytes": 3819
+      },
+      {
+        "_path": "site-packages/fairlearn/datasets/_fetch_bank_marketing.py",
+        "path_type": "hardlink",
+        "sha256": "bbbadc416009c35f03e35aa2dc65716d8798de811ce305b8f74a574ed2d515b2",
+        "sha256_in_prefix": "bbbadc416009c35f03e35aa2dc65716d8798de811ce305b8f74a574ed2d515b2",
+        "size_in_bytes": 3881
+      },
+      {
+        "_path": "site-packages/fairlearn/datasets/_fetch_boston.py",
+        "path_type": "hardlink",
+        "sha256": "85c3862b21acb9628666c6afe81b3c0d522cb20df931f7c874b9b69456fd67c6",
+        "sha256_in_prefix": "85c3862b21acb9628666c6afe81b3c0d522cb20df931f7c874b9b69456fd67c6",
+        "size_in_bytes": 5602
+      },
+      {
+        "_path": "site-packages/fairlearn/datasets/_fetch_credit_card.py",
+        "path_type": "hardlink",
+        "sha256": "679aab3a47111f8a1cb306e3f81b92d26e4f6c4123f661008a46a577f85ecd95",
+        "sha256_in_prefix": "679aab3a47111f8a1cb306e3f81b92d26e4f6c4123f661008a46a577f85ecd95",
+        "size_in_bytes": 3364
+      },
+      {
+        "_path": "site-packages/fairlearn/datasets/_fetch_diabetes_hospital.py",
+        "path_type": "hardlink",
+        "sha256": "b4597ef1a60cbe35ae887f17421797df04d8b9113df6fb1d6f54217225754ba8",
+        "sha256_in_prefix": "b4597ef1a60cbe35ae887f17421797df04d8b9113df6fb1d6f54217225754ba8",
+        "size_in_bytes": 4240
+      },
+      {
+        "_path": "site-packages/fairlearn/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "239179f1f2acb09d09cbbacd2d283feade8a936e42a46fa5cc0981abd08e3fa7",
+        "sha256_in_prefix": "239179f1f2acb09d09cbbacd2d283feade8a936e42a46fa5cc0981abd08e3fa7",
+        "size_in_bytes": 240
+      },
+      {
+        "_path": "site-packages/fairlearn/experimental/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6d262551592cd7b87aa2c63adde2e92a47af4a9a430fe9bc7fd4c19ca990b4c6",
+        "sha256_in_prefix": "6d262551592cd7b87aa2c63adde2e92a47af4a9a430fe9bc7fd4c19ca990b4c6",
+        "size_in_bytes": 259
+      },
+      {
+        "_path": "site-packages/fairlearn/experimental/enable_metric_frame_plotting.py",
+        "path_type": "hardlink",
+        "sha256": "7e1000b277ed028db9fd10fae354dde1547631aedeea9a684c62586f07f89220",
+        "sha256_in_prefix": "7e1000b277ed028db9fd10fae354dde1547631aedeea9a684c62586f07f89220",
+        "size_in_bytes": 414
+      },
+      {
+        "_path": "site-packages/fairlearn/metrics/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f3cd2e66687868a695d99d0837aa3091c2eeba14df143eb061bee9c4ca3e5310",
+        "sha256_in_prefix": "f3cd2e66687868a695d99d0837aa3091c2eeba14df143eb061bee9c4ca3e5310",
+        "size_in_bytes": 3079
+      },
+      {
+        "_path": "site-packages/fairlearn/metrics/_annotated_metric_function.py",
+        "path_type": "hardlink",
+        "sha256": "8f6b504f3f0f111d161165b27f91443b9a8907fd7a1ff33fbe4b80eb03cc8229",
+        "sha256_in_prefix": "8f6b504f3f0f111d161165b27f91443b9a8907fd7a1ff33fbe4b80eb03cc8229",
+        "size_in_bytes": 4206
+      },
+      {
+        "_path": "site-packages/fairlearn/metrics/_base_metrics.py",
+        "path_type": "hardlink",
+        "sha256": "bf47975d533161dc452cf963575e751113b1f09319a01b86c1db8c3739f04462",
+        "sha256_in_prefix": "bf47975d533161dc452cf963575e751113b1f09319a01b86c1db8c3739f04462",
+        "size_in_bytes": 9491
+      },
+      {
+        "_path": "site-packages/fairlearn/metrics/_bootstrap.py",
+        "path_type": "hardlink",
+        "sha256": "cb8a0c92faffa810386f4d3f99dbbe4d78542bf54b1aafdb06e391f8894fecdc",
+        "sha256_in_prefix": "cb8a0c92faffa810386f4d3f99dbbe4d78542bf54b1aafdb06e391f8894fecdc",
+        "size_in_bytes": 6090
+      },
+      {
+        "_path": "site-packages/fairlearn/metrics/_disaggregated_result.py",
+        "path_type": "hardlink",
+        "sha256": "ee693aa4bb4b8e87de2694f6529a96b8f3a6c99ab8c2ee531be5af4bf436417a",
+        "sha256_in_prefix": "ee693aa4bb4b8e87de2694f6529a96b8f3a6c99ab8c2ee531be5af4bf436417a",
+        "size_in_bytes": 15303
+      },
+      {
+        "_path": "site-packages/fairlearn/metrics/_fairness_metrics.py",
+        "path_type": "hardlink",
+        "sha256": "973a3d3b68a3d4731ab3de8b42b577b704cf3856adf774c3287ceb8a34726976",
+        "sha256_in_prefix": "973a3d3b68a3d4731ab3de8b42b577b704cf3856adf774c3287ceb8a34726976",
+        "size_in_bytes": 11112
+      },
+      {
+        "_path": "site-packages/fairlearn/metrics/_generated_metrics.py",
+        "path_type": "hardlink",
+        "sha256": "815e6ca4b13e83734ddd016c95e69ae15809ef510c248c980fa7b1b7f96b43f2",
+        "sha256_in_prefix": "815e6ca4b13e83734ddd016c95e69ae15809ef510c248c980fa7b1b7f96b43f2",
+        "size_in_bytes": 1549
+      },
+      {
+        "_path": "site-packages/fairlearn/metrics/_group_feature.py",
+        "path_type": "hardlink",
+        "sha256": "09d63c98f501e1f3733adc14867fd17b1dfab8ea07614c7c846d4edc7ba2b0b9",
+        "sha256_in_prefix": "09d63c98f501e1f3733adc14867fd17b1dfab8ea07614c7c846d4edc7ba2b0b9",
+        "size_in_bytes": 2363
+      },
+      {
+        "_path": "site-packages/fairlearn/metrics/_make_derived_metric.py",
+        "path_type": "hardlink",
+        "sha256": "14606523fb115c0cdc99c827e56ff9fd8de3a100f6b76de5415e61497788b56b",
+        "sha256_in_prefix": "14606523fb115c0cdc99c827e56ff9fd8de3a100f6b76de5415e61497788b56b",
+        "size_in_bytes": 5727
+      },
+      {
+        "_path": "site-packages/fairlearn/metrics/_metric_frame.py",
+        "path_type": "hardlink",
+        "sha256": "c50584803a02c3d2666852f12bcd1e160556237cc00e328ae470217569444a11",
+        "sha256_in_prefix": "c50584803a02c3d2666852f12bcd1e160556237cc00e328ae470217569444a11",
+        "size_in_bytes": 44412
+      },
+      {
+        "_path": "site-packages/fairlearn/metrics/_plot_model_comparison.py",
+        "path_type": "hardlink",
+        "sha256": "4ee1d02634e1666bb3f4f3100284c5ee7da9eda0385bf507407502b5f7268937",
+        "sha256_in_prefix": "4ee1d02634e1666bb3f4f3100284c5ee7da9eda0385bf507407502b5f7268937",
+        "size_in_bytes": 9139
+      },
+      {
+        "_path": "site-packages/fairlearn/metrics/_plotter.py",
+        "path_type": "hardlink",
+        "sha256": "f7b19adb22f1d374d9adaca843aa781e2ca9a053e3beee2931787167fd88c6ce",
+        "sha256_in_prefix": "f7b19adb22f1d374d9adaca843aa781e2ca9a053e3beee2931787167fd88c6ce",
+        "size_in_bytes": 9934
+      },
+      {
+        "_path": "site-packages/fairlearn/postprocessing/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "68843def34cd577b09f098c2bf735398f5ac6ce4d8bb410999dd372f71a6669b",
+        "sha256_in_prefix": "68843def34cd577b09f098c2bf735398f5ac6ce4d8bb410999dd372f71a6669b",
+        "size_in_bytes": 548
+      },
+      {
+        "_path": "site-packages/fairlearn/postprocessing/_constants.py",
+        "path_type": "hardlink",
+        "sha256": "0ec2cb9fbc62122b117b92ecf92aa372993dffb84b6e1d439e0a97a3d5810041",
+        "sha256_in_prefix": "0ec2cb9fbc62122b117b92ecf92aa372993dffb84b6e1d439e0a97a3d5810041",
+        "size_in_bytes": 1051
+      },
+      {
+        "_path": "site-packages/fairlearn/postprocessing/_interpolated_thresholder.py",
+        "path_type": "hardlink",
+        "sha256": "f00eb2fc0c37e0c5fb3408b1558507161baf47039cf2c338d6e76c9c7d397f58",
+        "sha256_in_prefix": "f00eb2fc0c37e0c5fb3408b1558507161baf47039cf2c338d6e76c9c7d397f58",
+        "size_in_bytes": 7213
+      },
+      {
+        "_path": "site-packages/fairlearn/postprocessing/_plotting.py",
+        "path_type": "hardlink",
+        "sha256": "d8838d23b810021d69c1ee76fe6547fc5c053798731338bdddf0fd379f2a4983",
+        "sha256_in_prefix": "d8838d23b810021d69c1ee76fe6547fc5c053798731338bdddf0fd379f2a4983",
+        "size_in_bytes": 4673
+      },
+      {
+        "_path": "site-packages/fairlearn/postprocessing/_threshold_operation.py",
+        "path_type": "hardlink",
+        "sha256": "239c084e435c44af25c6983b2984e883ddc787ff8a6558169dab893d1fd67eec",
+        "sha256_in_prefix": "239c084e435c44af25c6983b2984e883ddc787ff8a6558169dab893d1fd67eec",
+        "size_in_bytes": 1840
+      },
+      {
+        "_path": "site-packages/fairlearn/postprocessing/_threshold_optimizer.py",
+        "path_type": "hardlink",
+        "sha256": "747f732ee523d7900bf3b05be66a5b2b7f59eb63e72537841241f69247452bcf",
+        "sha256_in_prefix": "747f732ee523d7900bf3b05be66a5b2b7f59eb63e72537841241f69247452bcf",
+        "size_in_bytes": 28658
+      },
+      {
+        "_path": "site-packages/fairlearn/postprocessing/_tradeoff_curve_utilities.py",
+        "path_type": "hardlink",
+        "sha256": "0ca6e0d4562a7daf13389ad77b3afb4455b70337690fec31f2679470170f183c",
+        "sha256_in_prefix": "0ca6e0d4562a7daf13389ad77b3afb4455b70337690fec31f2679470170f183c",
+        "size_in_bytes": 12390
+      },
+      {
+        "_path": "site-packages/fairlearn/preprocessing/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a96fa75ffb3510771917c2bf22ef525e6b7ab77e96b0c0a40375545660ac3794",
+        "sha256_in_prefix": "a96fa75ffb3510771917c2bf22ef525e6b7ab77e96b0c0a40375545660ac3794",
+        "size_in_bytes": 255
+      },
+      {
+        "_path": "site-packages/fairlearn/preprocessing/_correlation_remover.py",
+        "path_type": "hardlink",
+        "sha256": "d1ff1f50b7d39b9c9e36822c46fcad4a18a5200d6ab36e39c70c59907c35c410",
+        "sha256_in_prefix": "d1ff1f50b7d39b9c9e36822c46fcad4a18a5200d6ab36e39c70c59907c35c410",
+        "size_in_bytes": 7282
+      },
+      {
+        "_path": "site-packages/fairlearn/reductions/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d5e8176088b920b66bbdb0a013b5bdde6f712a4dd29d6e792a287a86fae9b440",
+        "sha256_in_prefix": "d5e8176088b920b66bbdb0a013b5bdde6f712a4dd29d6e792a287a86fae9b440",
+        "size_in_bytes": 1338
+      },
+      {
+        "_path": "site-packages/fairlearn/reductions/_exponentiated_gradient/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "24ea78784366e0ad52f1822948398d8cb643fc18fec2e232a55892a7c20d151f",
+        "sha256_in_prefix": "24ea78784366e0ad52f1822948398d8cb643fc18fec2e232a55892a7c20d151f",
+        "size_in_bytes": 260
+      },
+      {
+        "_path": "site-packages/fairlearn/reductions/_exponentiated_gradient/_constants.py",
+        "path_type": "hardlink",
+        "sha256": "85c9034e1742bd24e39a11880029c80c52a07b49aa96b3cf343ffeecad0e97fc",
+        "sha256_in_prefix": "85c9034e1742bd24e39a11880029c80c52a07b49aa96b3cf343ffeecad0e97fc",
+        "size_in_bytes": 557
+      },
+      {
+        "_path": "site-packages/fairlearn/reductions/_exponentiated_gradient/_lagrangian.py",
+        "path_type": "hardlink",
+        "sha256": "41eabe6d0d250f2dd9c191e55c9b989e6cd8c41b1bdf47f6cbce42df37ea61b6",
+        "sha256_in_prefix": "41eabe6d0d250f2dd9c191e55c9b989e6cd8c41b1bdf47f6cbce42df37ea61b6",
+        "size_in_bytes": 9969
+      },
+      {
+        "_path": "site-packages/fairlearn/reductions/_exponentiated_gradient/exponentiated_gradient.py",
+        "path_type": "hardlink",
+        "sha256": "42fdbddc2c6f93dbb6da9edfce59b3058fbefd3f0d5d2add125ef1e8d2f09ed5",
+        "sha256_in_prefix": "42fdbddc2c6f93dbb6da9edfce59b3058fbefd3f0d5d2add125ef1e8d2f09ed5",
+        "size_in_bytes": 12126
+      },
+      {
+        "_path": "site-packages/fairlearn/reductions/_grid_search/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "95f727f6e622e6ae230fa9993a6a8a6f0000fc04eb52ab5b70afc5b250c1d70e",
+        "sha256_in_prefix": "95f727f6e622e6ae230fa9993a6a8a6f0000fc04eb52ab5b70afc5b250c1d70e",
+        "size_in_bytes": 209
+      },
+      {
+        "_path": "site-packages/fairlearn/reductions/_grid_search/_grid_generator.py",
+        "path_type": "hardlink",
+        "sha256": "266ea70ce6772d70a6c575f7f9ec50bca5cfd23bdc7ad0c04bf44e08f11076ae",
+        "sha256_in_prefix": "266ea70ce6772d70a6c575f7f9ec50bca5cfd23bdc7ad0c04bf44e08f11076ae",
+        "size_in_bytes": 4850
+      },
+      {
+        "_path": "site-packages/fairlearn/reductions/_grid_search/grid_search.py",
+        "path_type": "hardlink",
+        "sha256": "deb770f4f76c69fbe9b34bd8e19139950fe63a77b825e95ba082dbcc866bed92",
+        "sha256_in_prefix": "deb770f4f76c69fbe9b34bd8e19139950fe63a77b825e95ba082dbcc866bed92",
+        "size_in_bytes": 9678
+      },
+      {
+        "_path": "site-packages/fairlearn/reductions/_moments/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "00d5df7d1e92e69105c45104af1a434aac9ed102a89f74d8cec8c60eb5450a1d",
+        "sha256_in_prefix": "00d5df7d1e92e69105c45104af1a434aac9ed102a89f74d8cec8c60eb5450a1d",
+        "size_in_bytes": 1006
+      },
+      {
+        "_path": "site-packages/fairlearn/reductions/_moments/bounded_group_loss.py",
+        "path_type": "hardlink",
+        "sha256": "71049d284a1604bac863d1dc0b5f2b88c37e15a9a7a0ba3e3b298e0ab8d7cfaa",
+        "sha256_in_prefix": "71049d284a1604bac863d1dc0b5f2b88c37e15a9a7a0ba3e3b298e0ab8d7cfaa",
+        "size_in_bytes": 5992
+      },
+      {
+        "_path": "site-packages/fairlearn/reductions/_moments/error_rate.py",
+        "path_type": "hardlink",
+        "sha256": "0715683712ebd2020f8e269d7b1b0d34e6763e8e461ece1f7974906a82a518ca",
+        "sha256_in_prefix": "0715683712ebd2020f8e269d7b1b0d34e6763e8e461ece1f7974906a82a518ca",
+        "size_in_bytes": 3570
+      },
+      {
+        "_path": "site-packages/fairlearn/reductions/_moments/moment.py",
+        "path_type": "hardlink",
+        "sha256": "483709d077e2af4627da2a95bc158d5e7a510cd8b2e3a0fcd69f27ec58a7c37e",
+        "sha256_in_prefix": "483709d077e2af4627da2a95bc158d5e7a510cd8b2e3a0fcd69f27ec58a7c37e",
+        "size_in_bytes": 3420
+      },
+      {
+        "_path": "site-packages/fairlearn/reductions/_moments/utility_parity.py",
+        "path_type": "hardlink",
+        "sha256": "579bd8d842a82b4f7c62f82d3462bdb9040e5df3aac759555eabe17864576ee6",
+        "sha256_in_prefix": "579bd8d842a82b4f7c62f82d3462bdb9040e5df3aac759555eabe17864576ee6",
+        "size_in_bytes": 21462
+      },
+      {
+        "_path": "site-packages/fairlearn/show_versions.py",
+        "path_type": "hardlink",
+        "sha256": "94e47f879605d6f750a4f8e47252133b8e5ade574e4099b415821dbf04a8a57f",
+        "sha256_in_prefix": "94e47f879605d6f750a4f8e47252133b8e5ade574e4099b415821dbf04a8a57f",
+        "size_in_bytes": 1982
+      },
+      {
+        "_path": "site-packages/fairlearn/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5af359600a3deb04342d4d232bf65e0a522f4f0812c91de322cc250a7d09f0fa",
+        "sha256_in_prefix": "5af359600a3deb04342d4d232bf65e0a522f4f0812c91de322cc250a7d09f0fa",
+        "size_in_bytes": 127
+      },
+      {
+        "_path": "site-packages/fairlearn/utils/_common.py",
+        "path_type": "hardlink",
+        "sha256": "fd0ffb87c3a5ceae6c71744d90fed27ae0ec6d8b7317381d7b658a4ceff4c224",
+        "sha256_in_prefix": "fd0ffb87c3a5ceae6c71744d90fed27ae0ec6d8b7317381d7b658a4ceff4c224",
+        "size_in_bytes": 1796
+      },
+      {
+        "_path": "site-packages/fairlearn/utils/_compatibility.py",
+        "path_type": "hardlink",
+        "sha256": "372fc7b5a75864d7c45e857e89713b78a7272c7a34abeeeb4f870e49aac35314",
+        "sha256_in_prefix": "372fc7b5a75864d7c45e857e89713b78a7272c7a34abeeeb4f870e49aac35314",
+        "size_in_bytes": 440
+      },
+      {
+        "_path": "site-packages/fairlearn/utils/_fixes.py",
+        "path_type": "hardlink",
+        "sha256": "c7275ad29c5acb0c681bbb486e9242246cea7e5e538330a2d4a37f3ebfbc60d6",
+        "sha256_in_prefix": "c7275ad29c5acb0c681bbb486e9242246cea7e5e538330a2d4a37f3ebfbc60d6",
+        "size_in_bytes": 4353
+      },
+      {
+        "_path": "site-packages/fairlearn/utils/_input_manipulations.py",
+        "path_type": "hardlink",
+        "sha256": "93b523b6f57178145cd1035745f9616bc149588cbb49bc5a85752de0498120e3",
+        "sha256_in_prefix": "93b523b6f57178145cd1035745f9616bc149588cbb49bc5a85752de0498120e3",
+        "size_in_bytes": 1020
+      },
+      {
+        "_path": "site-packages/fairlearn/utils/_input_validation.py",
+        "path_type": "hardlink",
+        "sha256": "17376d4985069b3f535fb19c8cba72cf891306e1129ad1accb14258f774dc32e",
+        "sha256_in_prefix": "17376d4985069b3f535fb19c8cba72cf891306e1129ad1accb14258f774dc32e",
+        "size_in_bytes": 6789
+      },
+      {
+        "_path": "site-packages/test/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "304f2d5230f1e0ec365cd0270ae81b49d3b9797b88bddcbfb23488753a0745c9",
+        "sha256_in_prefix": "304f2d5230f1e0ec365cd0270ae81b49d3b9797b88bddcbfb23488753a0745c9",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/test/install/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "304f2d5230f1e0ec365cd0270ae81b49d3b9797b88bddcbfb23488753a0745c9",
+        "sha256_in_prefix": "304f2d5230f1e0ec365cd0270ae81b49d3b9797b88bddcbfb23488753a0745c9",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/test/install/test_no_matplotlib.py",
+        "path_type": "hardlink",
+        "sha256": "1cd4a9738799763c8f61b5366b37624c9e30fb872e4baa4ecee958c2e465dd50",
+        "sha256_in_prefix": "1cd4a9738799763c8f61b5366b37624c9e30fb872e4baa4ecee958c2e465dd50",
+        "size_in_bytes": 1877
+      },
+      {
+        "_path": "site-packages/test/install/test_no_ml.py",
+        "path_type": "hardlink",
+        "sha256": "42cf0801fab664f08d521d8c28cd75f4ab352ab87b9f0ee98e132c107ac5e269",
+        "sha256_in_prefix": "42cf0801fab664f08d521d8c28cd75f4ab352ab87b9f0ee98e132c107ac5e269",
+        "size_in_bytes": 875
+      },
+      {
+        "_path": "site-packages/test/unit/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "304f2d5230f1e0ec365cd0270ae81b49d3b9797b88bddcbfb23488753a0745c9",
+        "sha256_in_prefix": "304f2d5230f1e0ec365cd0270ae81b49d3b9797b88bddcbfb23488753a0745c9",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/test/unit/adversarial/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "edaf30f9fc9ff452b47e100cc52aa83aa096edb67408072430aedbf0cfbcd631",
+        "sha256_in_prefix": "edaf30f9fc9ff452b47e100cc52aa83aa096edb67408072430aedbf0cfbcd631",
+        "size_in_bytes": 74
+      },
+      {
+        "_path": "site-packages/test/unit/adversarial/helper.py",
+        "path_type": "hardlink",
+        "sha256": "8cc1f7b594d66571d0fabe973b3a85eae5d80076b28b0d2409e60d9112e3ee73",
+        "sha256_in_prefix": "8cc1f7b594d66571d0fabe973b3a85eae5d80076b28b0d2409e60d9112e3ee73",
+        "size_in_bytes": 9777
+      },
+      {
+        "_path": "site-packages/test/unit/adversarial/test_adversarial_mitigation.py",
+        "path_type": "hardlink",
+        "sha256": "5a6be39b147e54451c3ca2cce5655cf03f1264b4c4f25048a0cc45e76b2ce30f",
+        "sha256_in_prefix": "5a6be39b147e54451c3ca2cce5655cf03f1264b4c4f25048a0cc45e76b2ce30f",
+        "size_in_bytes": 12773
+      },
+      {
+        "_path": "site-packages/test/unit/adversarial/test_preprocessing.py",
+        "path_type": "hardlink",
+        "sha256": "7911d07285e3522aed05494ad8fb3d0ca5c8619982c66f890a439b91af155dd0",
+        "sha256_in_prefix": "7911d07285e3522aed05494ad8fb3d0ca5c8619982c66f890a439b91af155dd0",
+        "size_in_bytes": 2327
+      },
+      {
+        "_path": "site-packages/test/unit/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "cac41e64fef20e9f2f5405091b639e54b001925cac06c50ad41312a4d7d33a27",
+        "sha256_in_prefix": "cac41e64fef20e9f2f5405091b639e54b001925cac06c50ad41312a4d7d33a27",
+        "size_in_bytes": 888
+      },
+      {
+        "_path": "site-packages/test/unit/constants.py",
+        "path_type": "hardlink",
+        "sha256": "5be67e0b57ffeb656a397025c03b479ed28b1d4e36bddcc765586c781423fe10",
+        "sha256_in_prefix": "5be67e0b57ffeb656a397025c03b479ed28b1d4e36bddcc765586c781423fe10",
+        "size_in_bytes": 251
+      },
+      {
+        "_path": "site-packages/test/unit/datasets/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "304f2d5230f1e0ec365cd0270ae81b49d3b9797b88bddcbfb23488753a0745c9",
+        "sha256_in_prefix": "304f2d5230f1e0ec365cd0270ae81b49d3b9797b88bddcbfb23488753a0745c9",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/test/unit/datasets/test_datasets.py",
+        "path_type": "hardlink",
+        "sha256": "1dda3046d4d9ff5876354c81bf658fc4748d782a716c48b3e8d5b11bd2f38fda",
+        "sha256_in_prefix": "1dda3046d4d9ff5876354c81bf658fc4748d782a716c48b3e8d5b11bd2f38fda",
+        "size_in_bytes": 3337
+      },
+      {
+        "_path": "site-packages/test/unit/fixes.py",
+        "path_type": "hardlink",
+        "sha256": "a51734267fee9ed2868a8bbe8c3ebe68aadf84eb097f3ee70453c14027670f00",
+        "sha256_in_prefix": "a51734267fee9ed2868a8bbe8c3ebe68aadf84eb097f3ee70453c14027670f00",
+        "size_in_bytes": 378
+      },
+      {
+        "_path": "site-packages/test/unit/input_convertors.py",
+        "path_type": "hardlink",
+        "sha256": "33c4a3b895c8e0205a7b0e9464b33e43e8d24a2ca0ff8f20ff28b4c9a375efe9",
+        "sha256_in_prefix": "33c4a3b895c8e0205a7b0e9464b33e43e8d24a2ca0ff8f20ff28b4c9a375efe9",
+        "size_in_bytes": 2591
+      },
+      {
+        "_path": "site-packages/test/unit/metrics/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "304f2d5230f1e0ec365cd0270ae81b49d3b9797b88bddcbfb23488753a0745c9",
+        "sha256_in_prefix": "304f2d5230f1e0ec365cd0270ae81b49d3b9797b88bddcbfb23488753a0745c9",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/test/unit/metrics/data_for_test.py",
+        "path_type": "hardlink",
+        "sha256": "4a3d64668f2752936aaf88c66e9ed5c98e2232bfac1ee6f6c3c5315c1c649005",
+        "sha256_in_prefix": "4a3d64668f2752936aaf88c66e9ed5c98e2232bfac1ee6f6c3c5315c1c649005",
+        "size_in_bytes": 1424
+      },
+      {
+        "_path": "site-packages/test/unit/metrics/test_annotated_metric_function.py",
+        "path_type": "hardlink",
+        "sha256": "dfe7a81481ff44c3b658b90e27590173058d4e4e16a0145655699810ec40701f",
+        "sha256_in_prefix": "dfe7a81481ff44c3b658b90e27590173058d4e4e16a0145655699810ec40701f",
+        "size_in_bytes": 1437
+      },
+      {
+        "_path": "site-packages/test/unit/metrics/test_base_metrics.py",
+        "path_type": "hardlink",
+        "sha256": "3470f930ef2f2e3570b20b2b76a58e13cda5aeda9d3b9c0a277ed33a8faa39fc",
+        "sha256_in_prefix": "3470f930ef2f2e3570b20b2b76a58e13cda5aeda9d3b9c0a277ed33a8faa39fc",
+        "size_in_bytes": 22141
+      },
+      {
+        "_path": "site-packages/test/unit/metrics/test_bootstrap.py",
+        "path_type": "hardlink",
+        "sha256": "9b1ea41a40530bd6f9d60521dbe474104c737d18659c2658fbca62437f555d52",
+        "sha256_in_prefix": "9b1ea41a40530bd6f9d60521dbe474104c737d18659c2658fbca62437f555d52",
+        "size_in_bytes": 5782
+      },
+      {
+        "_path": "site-packages/test/unit/metrics/test_disaggregated_result.py",
+        "path_type": "hardlink",
+        "sha256": "c90c2087991e6826c79269e1e7bd2a778ceac00bdb7fe3b9d44de6d63fee5692",
+        "sha256_in_prefix": "c90c2087991e6826c79269e1e7bd2a778ceac00bdb7fe3b9d44de6d63fee5692",
+        "size_in_bytes": 5816
+      },
+      {
+        "_path": "site-packages/test/unit/metrics/test_fairness_metrics.py",
+        "path_type": "hardlink",
+        "sha256": "056d76fc45118dffdfe477a085e002eccfc8a2b01693a405ca5c7a0440dbad28",
+        "sha256_in_prefix": "056d76fc45118dffdfe477a085e002eccfc8a2b01693a405ca5c7a0440dbad28",
+        "size_in_bytes": 7297
+      },
+      {
+        "_path": "site-packages/test/unit/metrics/test_generated_metrics.py",
+        "path_type": "hardlink",
+        "sha256": "f384b8ee442535eb3873251131e928c41f4a128af6074f20ab7dd6a87d5e4b50",
+        "sha256_in_prefix": "f384b8ee442535eb3873251131e928c41f4a128af6074f20ab7dd6a87d5e4b50",
+        "size_in_bytes": 4583
+      },
+      {
+        "_path": "site-packages/test/unit/metrics/test_group_feature.py",
+        "path_type": "hardlink",
+        "sha256": "f821864b70a628f2a495c90ba8679e6826217407439d81bf83b36bbacf28d97c",
+        "sha256_in_prefix": "f821864b70a628f2a495c90ba8679e6826217407439d81bf83b36bbacf28d97c",
+        "size_in_bytes": 2001
+      },
+      {
+        "_path": "site-packages/test/unit/metrics/test_make_derived_metric.py",
+        "path_type": "hardlink",
+        "sha256": "774749c0e15f2756d1b11dfb39ad3729eaef7b0126b170009827b2804f749672",
+        "sha256_in_prefix": "774749c0e15f2756d1b11dfb39ad3729eaef7b0126b170009827b2804f749672",
+        "size_in_bytes": 8027
+      },
+      {
+        "_path": "site-packages/test/unit/metrics/test_mean_predictions.py",
+        "path_type": "hardlink",
+        "sha256": "36e9ebf8fdbf17abbb0a299c4738324d32bf9eca9649d901d9161aaf94859196",
+        "sha256_in_prefix": "36e9ebf8fdbf17abbb0a299c4738324d32bf9eca9649d901d9161aaf94859196",
+        "size_in_bytes": 842
+      },
+      {
+        "_path": "site-packages/test/unit/metrics/test_metricframe_aggregates.py",
+        "path_type": "hardlink",
+        "sha256": "79580750b36c142545ba66d1adbfa469bfa8cd4e853c804b8656b7e8802f2f2e",
+        "sha256_in_prefix": "79580750b36c142545ba66d1adbfa469bfa8cd4e853c804b8656b7e8802f2f2e",
+        "size_in_bytes": 76173
+      },
+      {
+        "_path": "site-packages/test/unit/metrics/test_metricframe_bootstrap.py",
+        "path_type": "hardlink",
+        "sha256": "1de1a0baaf5098383597efdaf18b3d0ebe70c95e578382cffe353c8ca216ec3e",
+        "sha256_in_prefix": "1de1a0baaf5098383597efdaf18b3d0ebe70c95e578382cffe353c8ca216ec3e",
+        "size_in_bytes": 21172
+      },
+      {
+        "_path": "site-packages/test/unit/metrics/test_metricframe_by_group.py",
+        "path_type": "hardlink",
+        "sha256": "8fbf1322dc1fe9b447830a5dfc120a4b6f967ee3ca716e1afc6a3b8214682784",
+        "sha256_in_prefix": "8fbf1322dc1fe9b447830a5dfc120a4b6f967ee3ca716e1afc6a3b8214682784",
+        "size_in_bytes": 5961
+      },
+      {
+        "_path": "site-packages/test/unit/metrics/test_metricframe_comprehensive.py",
+        "path_type": "hardlink",
+        "sha256": "d4eb2444eec856b9b1248a3c922c325ba89532363df29ab848b5509abe4d668f",
+        "sha256_in_prefix": "d4eb2444eec856b9b1248a3c922c325ba89532363df29ab848b5509abe4d668f",
+        "size_in_bytes": 5042
+      },
+      {
+        "_path": "site-packages/test/unit/metrics/test_metricframe_missing.py",
+        "path_type": "hardlink",
+        "sha256": "91a27f9a36b0cfc12375b34641417f2e5e619e51be1ed94718f21a1cf4b87a9b",
+        "sha256_in_prefix": "91a27f9a36b0cfc12375b34641417f2e5e619e51be1ed94718f21a1cf4b87a9b",
+        "size_in_bytes": 5732
+      },
+      {
+        "_path": "site-packages/test/unit/metrics/test_metricframe_multiclass.py",
+        "path_type": "hardlink",
+        "sha256": "e3bfc7a66ba70daeadd6c14def09c8a18aea6bf19bd7ad5fbb87b98960514308",
+        "sha256_in_prefix": "e3bfc7a66ba70daeadd6c14def09c8a18aea6bf19bd7ad5fbb87b98960514308",
+        "size_in_bytes": 1107
+      },
+      {
+        "_path": "site-packages/test/unit/metrics/test_metricframe_nonscalar.py",
+        "path_type": "hardlink",
+        "sha256": "43f876ab49632e0dfec3696cb7b79df378388bdd05f4c7918c093b81252f7603",
+        "sha256_in_prefix": "43f876ab49632e0dfec3696cb7b79df378388bdd05f4c7918c093b81252f7603",
+        "size_in_bytes": 4461
+      },
+      {
+        "_path": "site-packages/test/unit/metrics/test_metricframe_overall.py",
+        "path_type": "hardlink",
+        "sha256": "969bad4243fbf7c2dee0aee59cac98219ace670f7eb94ad4ecb741fff1f162cf",
+        "sha256_in_prefix": "969bad4243fbf7c2dee0aee59cac98219ace670f7eb94ad4ecb741fff1f162cf",
+        "size_in_bytes": 10121
+      },
+      {
+        "_path": "site-packages/test/unit/metrics/test_metricframe_process_features.py",
+        "path_type": "hardlink",
+        "sha256": "c493852069407e49c6f8505b1be7f994cfb463595b0ad1dc42844ecc8648c8d7",
+        "sha256_in_prefix": "c493852069407e49c6f8505b1be7f994cfb463595b0ad1dc42844ecc8648c8d7",
+        "size_in_bytes": 6755
+      },
+      {
+        "_path": "site-packages/test/unit/metrics/test_metricframe_smoke.py",
+        "path_type": "hardlink",
+        "sha256": "dde8b25921accd617992c79dca518c7716ce3be30de010f07b812dfefed1a409",
+        "sha256_in_prefix": "dde8b25921accd617992c79dca518c7716ce3be30de010f07b812dfefed1a409",
+        "size_in_bytes": 14844
+      },
+      {
+        "_path": "site-packages/test/unit/metrics/test_plot_metricframe.py",
+        "path_type": "hardlink",
+        "sha256": "ff75bdd6fd02a53122e9cd826f3045bfc44b55684e5c414a7760b38c511bbf3a",
+        "sha256_in_prefix": "ff75bdd6fd02a53122e9cd826f3045bfc44b55684e5c414a7760b38c511bbf3a",
+        "size_in_bytes": 5861
+      },
+      {
+        "_path": "site-packages/test/unit/metrics/test_plot_model_comparison.py",
+        "path_type": "hardlink",
+        "sha256": "db1021f4bde07678344158edeec8336efda021a988edc09479d5e2ae5d80da76",
+        "sha256_in_prefix": "db1021f4bde07678344158edeec8336efda021a988edc09479d5e2ae5d80da76",
+        "size_in_bytes": 7358
+      },
+      {
+        "_path": "site-packages/test/unit/metrics/test_selection_rate.py",
+        "path_type": "hardlink",
+        "sha256": "8bd2c2848042fb65632ae09403faabf1ed457291fdc4b6ebc53a1e7fb4b89559",
+        "sha256_in_prefix": "8bd2c2848042fb65632ae09403faabf1ed457291fdc4b6ebc53a1e7fb4b89559",
+        "size_in_bytes": 1604
+      },
+      {
+        "_path": "site-packages/test/unit/metrics/utils.py",
+        "path_type": "hardlink",
+        "sha256": "e26b751496259c0a29b8921bd85f635bc733e644a9817aba12a62d2077d9908f",
+        "sha256_in_prefix": "e26b751496259c0a29b8921bd85f635bc733e644a9817aba12a62d2077d9908f",
+        "size_in_bytes": 288
+      },
+      {
+        "_path": "site-packages/test/unit/postprocessing/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "304f2d5230f1e0ec365cd0270ae81b49d3b9797b88bddcbfb23488753a0745c9",
+        "sha256_in_prefix": "304f2d5230f1e0ec365cd0270ae81b49d3b9797b88bddcbfb23488753a0745c9",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/test/unit/postprocessing/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "9aba4649f0f979da7c72ab46c94ef6defeef2facf5fb7eeb40f10b57e803ea1c",
+        "sha256_in_prefix": "9aba4649f0f979da7c72ab46c94ef6defeef2facf5fb7eeb40f10b57e803ea1c",
+        "size_in_bytes": 6832
+      },
+      {
+        "_path": "site-packages/test/unit/postprocessing/test_curve_utilities.py",
+        "path_type": "hardlink",
+        "sha256": "e61e2f27738058bd1712699fc63bc826084cc2c1a8a01ae44e957685f4e076ee",
+        "sha256_in_prefix": "e61e2f27738058bd1712699fc63bc826084cc2c1a8a01ae44e957685f4e076ee",
+        "size_in_bytes": 8709
+      },
+      {
+        "_path": "site-packages/test/unit/postprocessing/test_plots.py",
+        "path_type": "hardlink",
+        "sha256": "e53480dea5508aecbf47a8b0a43d79f29bc866c5aad75d390e252e76ef1f4a34",
+        "sha256_in_prefix": "e53480dea5508aecbf47a8b0a43d79f29bc866c5aad75d390e252e76ef1f4a34",
+        "size_in_bytes": 2937
+      },
+      {
+        "_path": "site-packages/test/unit/postprocessing/test_smoke.py",
+        "path_type": "hardlink",
+        "sha256": "19b8223fde85ec933d2676d2ee63963d7a67d6ec11e621609513105bb3d7a159",
+        "sha256_in_prefix": "19b8223fde85ec933d2676d2ee63963d7a67d6ec11e621609513105bb3d7a159",
+        "size_in_bytes": 1723
+      },
+      {
+        "_path": "site-packages/test/unit/postprocessing/test_threshold_operation.py",
+        "path_type": "hardlink",
+        "sha256": "9501b3ac09eb3bd7a06ae95ce67c0ea99c87e976ad1e9d950faeff5da251e7cb",
+        "sha256_in_prefix": "9501b3ac09eb3bd7a06ae95ce67c0ea99c87e976ad1e9d950faeff5da251e7cb",
+        "size_in_bytes": 852
+      },
+      {
+        "_path": "site-packages/test/unit/postprocessing/test_threshold_optimization.py",
+        "path_type": "hardlink",
+        "sha256": "fd6b5d999658fe9bcd59d74e4e5c0952a3be56c1fef4107a6e35214fa85f3d04",
+        "sha256_in_prefix": "fd6b5d999658fe9bcd59d74e4e5c0952a3be56c1fef4107a6e35214fa85f3d04",
+        "size_in_bytes": 35985
+      },
+      {
+        "_path": "site-packages/test/unit/postprocessing/test_threshold_optimizer_multiple_sensitive_features.py",
+        "path_type": "hardlink",
+        "sha256": "86a02e4bfe782d77559b94b2ade916a8611a60ed721a6c4e3f6fe9d2e4ef6f6b",
+        "sha256_in_prefix": "86a02e4bfe782d77559b94b2ade916a8611a60ed721a6c4e3f6fe9d2e4ef6f6b",
+        "size_in_bytes": 5985
+      },
+      {
+        "_path": "site-packages/test/unit/preprocessing/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "304f2d5230f1e0ec365cd0270ae81b49d3b9797b88bddcbfb23488753a0745c9",
+        "sha256_in_prefix": "304f2d5230f1e0ec365cd0270ae81b49d3b9797b88bddcbfb23488753a0745c9",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/test/unit/preprocessing/linear_dep_remover/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "304f2d5230f1e0ec365cd0270ae81b49d3b9797b88bddcbfb23488753a0745c9",
+        "sha256_in_prefix": "304f2d5230f1e0ec365cd0270ae81b49d3b9797b88bddcbfb23488753a0745c9",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/test/unit/preprocessing/linear_dep_remover/test_correlation_remover_efficiency.py",
+        "path_type": "hardlink",
+        "sha256": "8c5e662501902152dc5d83d5c6b68861d67d3e1e03846afa0b65f3bf8fb4f341",
+        "sha256_in_prefix": "8c5e662501902152dc5d83d5c6b68861d67d3e1e03846afa0b65f3bf8fb4f341",
+        "size_in_bytes": 4640
+      },
+      {
+        "_path": "site-packages/test/unit/preprocessing/linear_dep_remover/test_sklearn_compat.py",
+        "path_type": "hardlink",
+        "sha256": "f1b9bf27f072b678957673d230af311cc5a3d693b89f3ec8e7fbd3b5a49825dd",
+        "sha256_in_prefix": "f1b9bf27f072b678957673d230af311cc5a3d693b89f3ec8e7fbd3b5a49825dd",
+        "size_in_bytes": 3663
+      },
+      {
+        "_path": "site-packages/test/unit/reductions/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "304f2d5230f1e0ec365cd0270ae81b49d3b9797b88bddcbfb23488753a0745c9",
+        "sha256_in_prefix": "304f2d5230f1e0ec365cd0270ae81b49d3b9797b88bddcbfb23488753a0745c9",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/test/unit/reductions/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "3d831c694be4ab18a93d02de4bb96f0ec9732de0ebdedbca12ba7fbba1368977",
+        "sha256_in_prefix": "3d831c694be4ab18a93d02de4bb96f0ec9732de0ebdedbca12ba7fbba1368977",
+        "size_in_bytes": 384
+      },
+      {
+        "_path": "site-packages/test/unit/reductions/data_generators.py",
+        "path_type": "hardlink",
+        "sha256": "9abaaf3f0015a59943901edd4e7a84f30e6866a33b9d9b01d33ea384d284f2ae",
+        "sha256_in_prefix": "9abaaf3f0015a59943901edd4e7a84f30e6866a33b9d9b01d33ea384d284f2ae",
+        "size_in_bytes": 885
+      },
+      {
+        "_path": "site-packages/test/unit/reductions/exponentiated_gradient/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "304f2d5230f1e0ec365cd0270ae81b49d3b9797b88bddcbfb23488753a0745c9",
+        "sha256_in_prefix": "304f2d5230f1e0ec365cd0270ae81b49d3b9797b88bddcbfb23488753a0745c9",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/test/unit/reductions/exponentiated_gradient/simple_learners.py",
+        "path_type": "hardlink",
+        "sha256": "b80ead91f3c0f4aab4e8c7c1e5978632c8de9941f6cdb079c3aa2d7d0dedd525",
+        "sha256_in_prefix": "b80ead91f3c0f4aab4e8c7c1e5978632c8de9941f6cdb079c3aa2d7d0dedd525",
+        "size_in_bytes": 1208
+      },
+      {
+        "_path": "site-packages/test/unit/reductions/exponentiated_gradient/test_control_features.py",
+        "path_type": "hardlink",
+        "sha256": "5d3aa4f3ef498e2b99b88bdc2989b4de12cb7ea33d99396a74b82d52fa7934a1",
+        "sha256_in_prefix": "5d3aa4f3ef498e2b99b88bdc2989b4de12cb7ea33d99396a74b82d52fa7934a1",
+        "size_in_bytes": 5737
+      },
+      {
+        "_path": "site-packages/test/unit/reductions/exponentiated_gradient/test_exponentiatedgradient_arguments.py",
+        "path_type": "hardlink",
+        "sha256": "496af92e507f7eff3b3ea8ea37a704bee5e23c1d454e38c269a3fafd9529cbee",
+        "sha256_in_prefix": "496af92e507f7eff3b3ea8ea37a704bee5e23c1d454e38c269a3fafd9529cbee",
+        "size_in_bytes": 8105
+      },
+      {
+        "_path": "site-packages/test/unit/reductions/exponentiated_gradient/test_exponentiatedgradient_smoke.py",
+        "path_type": "hardlink",
+        "sha256": "9963bb4375c532f6b72094f7e08b817b11b351e1f7b2f6d97267cc61ae9fde8a",
+        "sha256_in_prefix": "9963bb4375c532f6b72094f7e08b817b11b351e1f7b2f6d97267cc61ae9fde8a",
+        "size_in_bytes": 34023
+      },
+      {
+        "_path": "site-packages/test/unit/reductions/exponentiated_gradient/test_lagrangian.py",
+        "path_type": "hardlink",
+        "sha256": "c7e7a4254f50fc88b4312aa2f7adf83f7a85007ab85f301d44c76472c6e903da",
+        "sha256_in_prefix": "c7e7a4254f50fc88b4312aa2f7adf83f7a85007ab85f301d44c76472c6e903da",
+        "size_in_bytes": 9631
+      },
+      {
+        "_path": "site-packages/test/unit/reductions/exponentiated_gradient/test_pickle.py",
+        "path_type": "hardlink",
+        "sha256": "bb517d967f91143e03c3022d776559bb4e04c9c99e2960c3a94fea103cdef1e7",
+        "sha256_in_prefix": "bb517d967f91143e03c3022d776559bb4e04c9c99e2960c3a94fea103cdef1e7",
+        "size_in_bytes": 1637
+      },
+      {
+        "_path": "site-packages/test/unit/reductions/exponentiated_gradient/test_utilities.py",
+        "path_type": "hardlink",
+        "sha256": "e8f788a0a42ec648b8edd1bddc1ede57a29670ecceac36b52090383ccaa02698",
+        "sha256_in_prefix": "e8f788a0a42ec648b8edd1bddc1ede57a29670ecceac36b52090383ccaa02698",
+        "size_in_bytes": 1143
+      },
+      {
+        "_path": "site-packages/test/unit/reductions/grid_search/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "304f2d5230f1e0ec365cd0270ae81b49d3b9797b88bddcbfb23488753a0745c9",
+        "sha256_in_prefix": "304f2d5230f1e0ec365cd0270ae81b49d3b9797b88bddcbfb23488753a0745c9",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/test/unit/reductions/grid_search/test_grid_generator.py",
+        "path_type": "hardlink",
+        "sha256": "07b19eabc5a592b06b5ebcaf9df3eb370f53af5508f1aa39c2da4dd078848890",
+        "sha256_in_prefix": "07b19eabc5a592b06b5ebcaf9df3eb370f53af5508f1aa39c2da4dd078848890",
+        "size_in_bytes": 8577
+      },
+      {
+        "_path": "site-packages/test/unit/reductions/grid_search/test_grid_search_arguments.py",
+        "path_type": "hardlink",
+        "sha256": "dd88244a63d8f73ca1d6bffa87ea8ebd023732d7dc9f0fe87e209aa10f621753",
+        "sha256_in_prefix": "dd88244a63d8f73ca1d6bffa87ea8ebd023732d7dc9f0fe87e209aa10f621753",
+        "size_in_bytes": 17064
+      },
+      {
+        "_path": "site-packages/test/unit/reductions/grid_search/test_grid_search_demographicparity.py",
+        "path_type": "hardlink",
+        "sha256": "b837bfb40023c0b52cb62bddaeac65a7c394ebb6418ca024470e6e6149581cd8",
+        "sha256_in_prefix": "b837bfb40023c0b52cb62bddaeac65a7c394ebb6418ca024470e6e6149581cd8",
+        "size_in_bytes": 8589
+      },
+      {
+        "_path": "site-packages/test/unit/reductions/grid_search/test_grid_search_regression.py",
+        "path_type": "hardlink",
+        "sha256": "23680a52a32b65c3f7f8d7b0a17ce4a565faa0d4ff7d9314b87fb244dd5cfdef",
+        "sha256_in_prefix": "23680a52a32b65c3f7f8d7b0a17ce4a565faa0d4ff7d9314b87fb244dd5cfdef",
+        "size_in_bytes": 6043
+      },
+      {
+        "_path": "site-packages/test/unit/reductions/grid_search/test_pickle.py",
+        "path_type": "hardlink",
+        "sha256": "47d1bca1c1583ef5a99057cab0df5a901af27ca79ff8b5ed28038aa66c6004b1",
+        "sha256_in_prefix": "47d1bca1c1583ef5a99057cab0df5a901af27ca79ff8b5ed28038aa66c6004b1",
+        "size_in_bytes": 1406
+      },
+      {
+        "_path": "site-packages/test/unit/reductions/grid_search/utilities.py",
+        "path_type": "hardlink",
+        "sha256": "95a8e764b4933e47d57e702964046087029c9065e2d1b75c0f2e4079759a9327",
+        "sha256_in_prefix": "95a8e764b4933e47d57e702964046087029c9065e2d1b75c0f2e4079759a9327",
+        "size_in_bytes": 1520
+      },
+      {
+        "_path": "site-packages/test/unit/reductions/moments/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "304f2d5230f1e0ec365cd0270ae81b49d3b9797b88bddcbfb23488753a0745c9",
+        "sha256_in_prefix": "304f2d5230f1e0ec365cd0270ae81b49d3b9797b88bddcbfb23488753a0745c9",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/test/unit/reductions/moments/data_generator.py",
+        "path_type": "hardlink",
+        "sha256": "f6cd8dbbf2eb3dc98166a96d45fce6d921e751a40c5a15c78522a4a1d944657d",
+        "sha256_in_prefix": "f6cd8dbbf2eb3dc98166a96d45fce6d921e751a40c5a15c78522a4a1d944657d",
+        "size_in_bytes": 2254
+      },
+      {
+        "_path": "site-packages/test/unit/reductions/moments/test_moments_bounded_group_loss.py",
+        "path_type": "hardlink",
+        "sha256": "9aac5b52046af386751462928bbb7a41269b9d78468d794e1b563d96fce5e097",
+        "sha256_in_prefix": "9aac5b52046af386751462928bbb7a41269b9d78468d794e1b563d96fce5e097",
+        "size_in_bytes": 5967
+      },
+      {
+        "_path": "site-packages/test/unit/reductions/moments/test_moments_control_features.py",
+        "path_type": "hardlink",
+        "sha256": "40b63c1de5ea2cfddd82fd33ecfb1f78e15fd72ee62549fd0f81f729bc9be427",
+        "sha256_in_prefix": "40b63c1de5ea2cfddd82fd33ecfb1f78e15fd72ee62549fd0f81f729bc9be427",
+        "size_in_bytes": 4561
+      },
+      {
+        "_path": "site-packages/test/unit/reductions/moments/test_moments_demographic_parity.py",
+        "path_type": "hardlink",
+        "sha256": "b651d7e5220ace3fb6898b7d046ff79e7d75041f9aceaaaed5a475669fa25792",
+        "sha256_in_prefix": "b651d7e5220ace3fb6898b7d046ff79e7d75041f9aceaaaed5a475669fa25792",
+        "size_in_bytes": 5343
+      },
+      {
+        "_path": "site-packages/test/unit/reductions/moments/test_moments_equalized_odds.py",
+        "path_type": "hardlink",
+        "sha256": "71801a5f70608ccefddb888cd4269109babdd8fc9433b89bf1e0302f88a0aeec",
+        "sha256_in_prefix": "71801a5f70608ccefddb888cd4269109babdd8fc9433b89bf1e0302f88a0aeec",
+        "size_in_bytes": 7278
+      },
+      {
+        "_path": "site-packages/test/unit/reductions/moments/test_moments_error_rate.py",
+        "path_type": "hardlink",
+        "sha256": "c13b25a2bad07edfeadc1eba4d5bc2ff956aa641479c454e8607d4f4ed177e34",
+        "sha256_in_prefix": "c13b25a2bad07edfeadc1eba4d5bc2ff956aa641479c454e8607d4f4ed177e34",
+        "size_in_bytes": 651
+      },
+      {
+        "_path": "site-packages/test/unit/reductions/test_smoke.py",
+        "path_type": "hardlink",
+        "sha256": "938929cc31cd35cd008b76b88c00a29c849413d703dcbfb9b7847c8da971d496",
+        "sha256_in_prefix": "938929cc31cd35cd008b76b88c00a29c849413d703dcbfb9b7847c8da971d496",
+        "size_in_bytes": 1678
+      },
+      {
+        "_path": "site-packages/test/unit/test_random_state.py",
+        "path_type": "hardlink",
+        "sha256": "d9ab998b03c91daf73945bba4d5a15006434b941b472d9a9ba25f9476057ae6f",
+        "sha256_in_prefix": "d9ab998b03c91daf73945bba4d5a15006434b941b472d9a9ba25f9476057ae6f",
+        "size_in_bytes": 3096
+      },
+      {
+        "_path": "site-packages/test/unit/test_show_versions.py",
+        "path_type": "hardlink",
+        "sha256": "5426b177567823c8b7b50afe4155bfe17175edcb12b534b2ead78455cbf8c0dc",
+        "sha256_in_prefix": "5426b177567823c8b7b50afe4155bfe17175edcb12b534b2ead78455cbf8c0dc",
+        "size_in_bytes": 584
+      },
+      {
+        "_path": "site-packages/test/unit/utility_functions.py",
+        "path_type": "hardlink",
+        "sha256": "69c5fc16d24189f812f577c8ef5c183b3c20b2eb4fa7f6fe95e077afd9b81edf",
+        "sha256_in_prefix": "69c5fc16d24189f812f577c8ef5c183b3c20b2eb4fa7f6fe95e077afd9b81edf",
+        "size_in_bytes": 826
+      },
+      {
+        "_path": "site-packages/test_othermlpackages/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "304f2d5230f1e0ec365cd0270ae81b49d3b9797b88bddcbfb23488753a0745c9",
+        "sha256_in_prefix": "304f2d5230f1e0ec365cd0270ae81b49d3b9797b88bddcbfb23488753a0745c9",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/test_othermlpackages/adversarial_fairness.py",
+        "path_type": "hardlink",
+        "sha256": "421f746b143da33bd08bdd9aa1560af3a8d7a257428ccc26ebbb70ed7f047df0",
+        "sha256_in_prefix": "421f746b143da33bd08bdd9aa1560af3a8d7a257428ccc26ebbb70ed7f047df0",
+        "size_in_bytes": 6226
+      },
+      {
+        "_path": "site-packages/test_othermlpackages/package_test_common.py",
+        "path_type": "hardlink",
+        "sha256": "02042735e77ea962a4782f7cd64709972ede64a50af47570d8aac5e92a666b43",
+        "sha256_in_prefix": "02042735e77ea962a4782f7cd64709972ede64a50af47570d8aac5e92a666b43",
+        "size_in_bytes": 6123
+      },
+      {
+        "_path": "site-packages/test_othermlpackages/test_lightgbm.py",
+        "path_type": "hardlink",
+        "sha256": "d4dbe8e1902a44559f4f36387e29aab8c048e7f6c70e1ebe294930e1d53d4c78",
+        "sha256_in_prefix": "d4dbe8e1902a44559f4f36387e29aab8c048e7f6c70e1ebe294930e1d53d4c78",
+        "size_in_bytes": 1322
+      },
+      {
+        "_path": "site-packages/test_othermlpackages/test_pytorch.py",
+        "path_type": "hardlink",
+        "sha256": "d20bb0420208c57d402ffcf4feb32851c59c245f60dbabd4b0cc67f821be93dd",
+        "sha256_in_prefix": "d20bb0420208c57d402ffcf4feb32851c59c245f60dbabd4b0cc67f821be93dd",
+        "size_in_bytes": 4709
+      },
+      {
+        "_path": "site-packages/test_othermlpackages/test_tensorflow.py",
+        "path_type": "hardlink",
+        "sha256": "84f43ce8042baef11e6777e50a69766a790223e0a0b2e161e6ae93714690f84f",
+        "sha256_in_prefix": "84f43ce8042baef11e6777e50a69766a790223e0a0b2e161e6ae93714690f84f",
+        "size_in_bytes": 2354
+      },
+      {
+        "_path": "site-packages/test_othermlpackages/test_xgboost.py",
+        "path_type": "hardlink",
+        "sha256": "c76ad7f75e4655d82050870fe2992625ea5b05660c0ff62efa760a018ce8eb30",
+        "sha256_in_prefix": "c76ad7f75e4655d82050870fe2992625ea5b05660c0ff62efa760a018ce8eb30",
+        "size_in_bytes": 1416
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/adversarial/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/adversarial/__pycache__/_adversarial_mitigation.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/adversarial/__pycache__/_backend_engine.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/adversarial/__pycache__/_constants.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/adversarial/__pycache__/_preprocessor.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/adversarial/__pycache__/_pytorch_engine.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/adversarial/__pycache__/_tensorflow_engine.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/datasets/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/datasets/__pycache__/_constants.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/datasets/__pycache__/_fetch_acs_income.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/datasets/__pycache__/_fetch_adult.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/datasets/__pycache__/_fetch_bank_marketing.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/datasets/__pycache__/_fetch_boston.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/datasets/__pycache__/_fetch_credit_card.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/datasets/__pycache__/_fetch_diabetes_hospital.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/__pycache__/exceptions.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/experimental/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/experimental/__pycache__/enable_metric_frame_plotting.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/metrics/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/metrics/__pycache__/_annotated_metric_function.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/metrics/__pycache__/_base_metrics.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/metrics/__pycache__/_bootstrap.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/metrics/__pycache__/_disaggregated_result.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/metrics/__pycache__/_fairness_metrics.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/metrics/__pycache__/_generated_metrics.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/metrics/__pycache__/_group_feature.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/metrics/__pycache__/_make_derived_metric.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/metrics/__pycache__/_metric_frame.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/metrics/__pycache__/_plot_model_comparison.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/metrics/__pycache__/_plotter.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/postprocessing/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/postprocessing/__pycache__/_constants.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/postprocessing/__pycache__/_interpolated_thresholder.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/postprocessing/__pycache__/_plotting.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/postprocessing/__pycache__/_threshold_operation.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/postprocessing/__pycache__/_threshold_optimizer.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/postprocessing/__pycache__/_tradeoff_curve_utilities.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/preprocessing/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/preprocessing/__pycache__/_correlation_remover.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/reductions/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/reductions/_exponentiated_gradient/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/reductions/_exponentiated_gradient/__pycache__/_constants.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/reductions/_exponentiated_gradient/__pycache__/_lagrangian.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/reductions/_exponentiated_gradient/__pycache__/exponentiated_gradient.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/reductions/_grid_search/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/reductions/_grid_search/__pycache__/_grid_generator.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/reductions/_grid_search/__pycache__/grid_search.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/reductions/_moments/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/reductions/_moments/__pycache__/bounded_group_loss.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/reductions/_moments/__pycache__/error_rate.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/reductions/_moments/__pycache__/moment.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/reductions/_moments/__pycache__/utility_parity.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/__pycache__/show_versions.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/utils/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/utils/__pycache__/_common.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/utils/__pycache__/_compatibility.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/utils/__pycache__/_fixes.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/utils/__pycache__/_input_manipulations.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fairlearn/utils/__pycache__/_input_validation.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/install/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/install/__pycache__/test_no_matplotlib.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/install/__pycache__/test_no_ml.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/adversarial/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/adversarial/__pycache__/helper.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/adversarial/__pycache__/test_adversarial_mitigation.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/adversarial/__pycache__/test_preprocessing.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/__pycache__/conftest.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/__pycache__/constants.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/datasets/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/datasets/__pycache__/test_datasets.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/__pycache__/fixes.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/__pycache__/input_convertors.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/metrics/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/metrics/__pycache__/data_for_test.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_annotated_metric_function.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_base_metrics.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_bootstrap.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_disaggregated_result.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_fairness_metrics.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_generated_metrics.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_group_feature.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_make_derived_metric.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_mean_predictions.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_metricframe_aggregates.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_metricframe_bootstrap.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_metricframe_by_group.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_metricframe_comprehensive.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_metricframe_missing.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_metricframe_multiclass.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_metricframe_nonscalar.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_metricframe_overall.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_metricframe_process_features.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_metricframe_smoke.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_plot_metricframe.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_plot_model_comparison.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/metrics/__pycache__/test_selection_rate.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/metrics/__pycache__/utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/postprocessing/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/postprocessing/__pycache__/conftest.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/postprocessing/__pycache__/test_curve_utilities.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/postprocessing/__pycache__/test_plots.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/postprocessing/__pycache__/test_smoke.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/postprocessing/__pycache__/test_threshold_operation.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/postprocessing/__pycache__/test_threshold_optimization.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/postprocessing/__pycache__/test_threshold_optimizer_multiple_sensitive_features.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/preprocessing/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/preprocessing/linear_dep_remover/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/preprocessing/linear_dep_remover/__pycache__/test_correlation_remover_efficiency.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/preprocessing/linear_dep_remover/__pycache__/test_sklearn_compat.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/reductions/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/reductions/__pycache__/conftest.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/reductions/__pycache__/data_generators.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/reductions/exponentiated_gradient/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/reductions/exponentiated_gradient/__pycache__/simple_learners.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/reductions/exponentiated_gradient/__pycache__/test_control_features.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/reductions/exponentiated_gradient/__pycache__/test_exponentiatedgradient_arguments.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/reductions/exponentiated_gradient/__pycache__/test_exponentiatedgradient_smoke.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/reductions/exponentiated_gradient/__pycache__/test_lagrangian.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/reductions/exponentiated_gradient/__pycache__/test_pickle.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/reductions/exponentiated_gradient/__pycache__/test_utilities.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/reductions/grid_search/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/reductions/grid_search/__pycache__/test_grid_generator.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/reductions/grid_search/__pycache__/test_grid_search_arguments.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/reductions/grid_search/__pycache__/test_grid_search_demographicparity.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/reductions/grid_search/__pycache__/test_grid_search_regression.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/reductions/grid_search/__pycache__/test_pickle.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/reductions/grid_search/__pycache__/utilities.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/reductions/moments/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/reductions/moments/__pycache__/data_generator.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/reductions/moments/__pycache__/test_moments_bounded_group_loss.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/reductions/moments/__pycache__/test_moments_control_features.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/reductions/moments/__pycache__/test_moments_demographic_parity.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/reductions/moments/__pycache__/test_moments_equalized_odds.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/reductions/moments/__pycache__/test_moments_error_rate.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/reductions/__pycache__/test_smoke.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/__pycache__/test_random_state.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/__pycache__/test_show_versions.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test/unit/__pycache__/utility_functions.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test_othermlpackages/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test_othermlpackages/__pycache__/adversarial_fairness.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test_othermlpackages/__pycache__/package_test_common.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test_othermlpackages/__pycache__/test_lightgbm.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test_othermlpackages/__pycache__/test_pytorch.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test_othermlpackages/__pycache__/test_tensorflow.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/test_othermlpackages/__pycache__/test_xgboost.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "fairlearn==0.12.0=pyhd8ed1ab_1",
+  "sha256": "3c62d1b92ab1e33444055c0d481980f36d25dce4f12fc1086ba1a49dfc3729e5",
+  "size": 156542,
+  "subdir": "noarch",
+  "timestamp": 1735812885590,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/fairlearn-0.12.0-pyhd8ed1ab_1.conda",
+  "version": "0.12.0"
+}

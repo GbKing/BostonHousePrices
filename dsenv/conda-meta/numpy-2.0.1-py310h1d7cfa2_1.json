@@ -1,0 +1,40 @@
+{
+  "build": "py310h1d7cfa2_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "blas * openblas",
+    "libcxx >=14.0.6",
+    "libopenblas >=0.3.21,<1.0a0",
+    "numpy-base 2.0.1 py310h03d8c7d_1",
+    "python >=3.10,<3.11.0a0"
+  ],
+  "extracted_package_dir": "/Users/gbengaogunwale/opt/anaconda3/pkgs/numpy-2.0.1-py310h1d7cfa2_1",
+  "features": "",
+  "files": [],
+  "fn": "numpy-2.0.1-py310h1d7cfa2_1.conda",
+  "legacy_bz2_md5": "164b7538fee2aef77a5174ece13a51cf",
+  "legacy_bz2_size": 11356,
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/gbengaogunwale/opt/anaconda3/pkgs/numpy-2.0.1-py310h1d7cfa2_1",
+    "type": 1
+  },
+  "md5": "e5639f66fc318cb71fcc2c526ce3c043",
+  "name": "numpy",
+  "package_tarball_full_path": "/Users/gbengaogunwale/opt/anaconda3/pkgs/numpy-2.0.1-py310h1d7cfa2_1.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "numpy==2.0.1=py310h1d7cfa2_1",
+  "sha256": "078030374e8dc7356a5342e243eaea15c0bf7607ac17a199b864b21ceb302b79",
+  "size": 11932,
+  "subdir": "osx-64",
+  "timestamp": 1725470476857,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/numpy-2.0.1-py310h1d7cfa2_1.conda",
+  "version": "2.0.1"
+}

@@ -1,0 +1,38 @@
+{
+  "build": "py310hecd8cb5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "matplotlib-base >=3.10.0,<3.10.1.0a0",
+    "python >=3.10,<3.11.0a0",
+    "tornado >=5"
+  ],
+  "extracted_package_dir": "/Users/gbengaogunwale/opt/anaconda3/pkgs/matplotlib-3.10.0-py310hecd8cb5_0",
+  "features": "",
+  "files": [],
+  "fn": "matplotlib-3.10.0-py310hecd8cb5_0.conda",
+  "legacy_bz2_md5": "7a79f0b545bc979be7d17b2be4c6b97c",
+  "legacy_bz2_size": 7773,
+  "license": "LicenseRef-PSF-based",
+  "license_family": "PSF",
+  "link": {
+    "source": "/Users/gbengaogunwale/opt/anaconda3/pkgs/matplotlib-3.10.0-py310hecd8cb5_0",
+    "type": 1
+  },
+  "md5": "e3b64084fe74d57f870355bd1161c4d4",
+  "name": "matplotlib",
+  "package_tarball_full_path": "/Users/gbengaogunwale/opt/anaconda3/pkgs/matplotlib-3.10.0-py310hecd8cb5_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "matplotlib==3.10.0=py310hecd8cb5_0",
+  "sha256": "b5b3a56761f612a221338fd2ea7cb982b7d228b71925d832020eb5cda748213f",
+  "size": 8078,
+  "subdir": "osx-64",
+  "timestamp": 1736279460420,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/matplotlib-3.10.0-py310hecd8cb5_0.conda",
+  "version": "3.10.0"
+}
